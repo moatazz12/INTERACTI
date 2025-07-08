@@ -1,0 +1,13 @@
+{
+  "contactTitle": "Contact",
+  "breadcrumbHome": "Accueil",
+  "breadcrumbContact": "Contact",
+  "respondTime": "Nous vous répondrons en",
+  "helpText": "Nous sommes toujours là pour vous aider : envoyez-nous un message et nous vous répondrons rapidement.",
+  "formTitle": "Entrons en contact",
+  "namePlaceholder": "Nom",
+  "emailPlaceholder": "Adresse e-mail",
+  "subjectPlaceholder": "Sujet",
+  "messagePlaceholder": "Rédigez votre message...",
+  "sendButton": "ENVOYER"
+}

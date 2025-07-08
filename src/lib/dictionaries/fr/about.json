@@ -1,0 +1,154 @@
+{
+  "about": {
+    "hero": {
+      "activeUnderlineTitle":"About",
+      "title": "À propos",
+      "breadcrumbHome": "Accueil",
+      "breadcrumbAbout":" À propos"
+    },
+    "aboutSection": {
+      "title": "L'innovation commence avec nous",
+      "teamImage": {
+        "alt": "Notre équipe créative au travail",
+        "title": "Découvrez notre équipe créative",
+        "description": "Derrière chaque réussite chez Interacti Marketing Agency se cache une équipe passionnée, créative et rigoureuse. Designers, développeurs, stratèges et spécialistes du marketing travaillent main dans la main pour donner vie à des idées audacieuses et générer des résultats mesurables. Plus qu'une équipe — nous sommes vos partenaires de croissance."
+      },
+      "cards": {
+        "vision": {
+          "title": "Notre Vision",
+          "description": "Chez Interacti Marketing Agency, notre vision est de créer des expériences de marque audacieuses et percutantes grâce à l'innovation, la stratégie et le design. Nous croyons au pouvoir du storytelling et de l'identité visuelle pour transformer durablement les entreprises.",
+          "imageAlt": "Notre Vision"
+        },
+        "expertise": {
+          "title": "Notre Expertise",
+          "description": "Experts en marketing digital, branding et design UX, nous concevons des solutions sur mesure pour captiver, convertir et inspirer. Chaque projet est une opportunité de valoriser votre marque.",
+          "imageAlt": "Notre Expertise"
+        },
+        "commitment": {
+          "title": "Notre Engagement",
+          "description": "Nous nous engageons à offrir l'excellence, la créativité et des résultats concrets. Avec l'audace du violet et le raffinement de l'or, Interacti incarne une vision digitale à la fois moderne et percutante.",
+          "imageAlt": "Notre Engagement"
+        }
+      }
+    },
+    "whoWeAre": {
+      "title": "Qui sommes-nous ?",
+      "subtitle": "Votre partenaire de confiance en marketing digital en Tunisie",
+      "description": "Interacti est une agence digitale basée à Sfax, Tunisie, orientée résultats. Nous accompagnons les marques ambitieuses à travers des solutions marketing complètes et intelligentes : SEO, contenu, design, développement, et stratégie. Notre équipe passionnée allie créativité, rigueur et performance pour générer des résultats concrets et durables. Depuis 2024, nous bâtissons des stratégies pour optimiser, générer, et faire évoluer votre marque."
+    },
+    "whyChoose": {
+      "title": "Pourquoi choisir Interacti ?",
+      "subtitle": "Nous donnons du pouvoir à votre marque pour grandir ensemble",
+      "description": "Chez Interacti Marketing Agency, nous bâtissons des partenariats durables et produisons des résultats concrets. Vous vous concentrez sur votre métier — nous nous chargeons de faire croître votre présence digitale.",
+      "reasons": [
+        {
+          "title": "Stratégie éprouvée",
+          "description": "Nous concevons des plans sur mesure, basés sur les données et orientés résultats."
+        },
+        {
+          "title": "Experts dédiés",
+          "description": "Une équipe humaine, créative et experte, toujours engagée à vos côtés."
+        },
+        {
+          "title": "Performance & résultats",
+          "description": "Nous analysons, testons et optimisons pour garantir une croissance réelle et mesurable."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Nos Chiffres",
+      "subtitle": "L'impact de notre travail",
+      "description": "Nous mesurons le succès à travers des résultats concrets et des partenariats durables.",
+      "metrics": [
+        {
+          "src":"https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "50+",
+          "label": "Membres d'équipe experts"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "1000+",
+          "label": "Projets livrés"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "98%",
+          "label": "Satisfaction client"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "200+",
+          "label": "Agents de support"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "120+",
+          "label": "Campagnes réussies"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "85+",
+          "label": "Clients satisfaits"
+        }
+      ]
+    },
+    "coreValues": {
+      "title": "Nos Valeurs Fondamentales",
+      "subtitle": "Ce qui nous guide",
+      "values": [
+        {
+          "title": "Excellence",
+          "description": "Nous visons l'excellence dans la qualité, la créativité et la satisfaction client."
+        },
+        {
+          "title": "Intégrité",
+          "description": "Nous agissons avec honnêteté, clarté et respect — en toute circonstance."
+        },
+        {
+          "title": "Audace",
+          "description": "Nous osons penser différemment et créer des solutions qui marquent."
+        },
+        {
+          "title": "Collaboration",
+          "description": "Nous grandissons ensemble — en équipe et avec nos clients."
+        },
+        {
+          "title": "Empathie",
+          "description": "Nous écoutons avec attention pour construire des solutions utiles et humaines."
+        },
+        {
+          "title": "Impact",
+          "description": "Nous créons de la valeur concrète, durable et mesurable."
+        }
+      ]
+    },
+    "connect": {
+      "title": "Restez connectés avec nous",
+      "subtitle": "Prêt à transformer votre marque ?",
+      "description": "Suivez Interacti Marketing Agency sur vos réseaux préférés et rejoignez notre communauté dynamique de marketeurs et d'entrepreneurs.",
+      "cta": "Démarrer un projet",
+      "socialMedia": {
+        "linkedin": {
+          "title": "LinkedIn",
+          "subtitle": "Rejoignez notre réseau professionnel",
+          "url": "https://www.linkedin.com/company/interactiagency/"
+        },
+        "twitter": {
+          "title": "X",
+          "subtitle": "Suivez nos dernières actus",
+          "url": "https://x.com/interactiagency/"
+        },
+        "instagram": {
+          "title": "Instagram",
+          "subtitle": "Plongez dans notre univers créatif",
+          "url": "https://www.instagram.com/interactiagency/"
+        },
+        "facebook": {
+          "title": "Facebook",
+          "subtitle": "Rejoignez la discussion",
+          "url": "https://www.facebook.com/interactiagency/"
+        }
+      }
+    }
+  }
+}

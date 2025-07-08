@@ -1,0 +1,54 @@
+/* WhyChooseSection.module.css */
+.whyChooseSection {
+  width: 100%;
+  background: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+@keyframes fadeInRotate {
+  from { opacity: 0; transform: translateY(32px) rotate(-6deg); }
+  to { opacity: 1; transform: translateY(0) rotate(0); }
+}
+.animateFadeInRotate {
+  animation: fadeInRotate 0.8s cubic-bezier(.4,2,.3,1) both;
+}
+
+@media (max-width: 640px) {
+  .whyChooseSection {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .mobileGrid {
+    gap: 1rem !important;
+    max-width: 100% !important;
+    justify-items: center;
+  }
+  .mobileCard {
+    padding: 1.25rem !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    width: 90%;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mobileH2 {
+    font-size: 3rem !important;
+  }
+  .mobileH3 {
+    font-size: 1rem !important;
+  }
+  .mobileP {
+    font-size: 0.95rem !important;
+  }
+} 

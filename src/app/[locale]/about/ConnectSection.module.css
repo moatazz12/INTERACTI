@@ -1,0 +1,42 @@
+/* ConnectSection.module.css */
+.connectSection {
+  width: 100%;
+  background: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover backgrounds for each social media */
+.cardLinkedin:hover {
+  background: linear-gradient(135deg, #0077B5 0%, #00c6fb 100%) !important;
+}
+.cardX:hover {
+  background: linear-gradient(135deg, #232526 0%, #000000 100%) !important;
+}
+.cardInstagram:hover {
+  background: linear-gradient(135deg, #f58529 0%, #dd2a7b 50%, #8134af 100%) !important;
+}
+.cardFacebook:hover {
+  background: linear-gradient(135deg, #1877F2 0%, #00c6fb 100%) !important;
+}
+
+.cardSocial {
+  background: white;
+  transition: background 0.3s;
+}
+
+/* Reduce size of icons for performance */
+.cardSocial .icon {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.cardSocial:hover .icon {
+  transform: scale(1.1);
+  color: white;
+}

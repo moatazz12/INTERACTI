@@ -1,0 +1,14 @@
+{
+  "contactTitle": "Contact",
+  "breadcrumbHome": "Home",
+  "breadcrumbContact": "Contact",
+  "respondTime": "We'll Respond To You In",
+  "helpText": "We’re always here to help — just send us a message and we’ll get back to you shortly.",
+  "formTitle": "Get In touch",
+  "namePlaceholder": "Name",
+  "emailPlaceholder": "Email Address",
+  "subjectPlaceholder": "Subject",
+  "messagePlaceholder": "Write Message . . .",
+  "sendButton": "SEND MESSAGE"
+ 
+}

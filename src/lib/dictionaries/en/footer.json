@@ -1,0 +1,26 @@
+{
+  "description": "Interacti Marketing Agency is a full-service digital marketing agency based in Tunisia. Attract, Impress, and Convert more leads online and get results with Interacti.",
+  "contactUs": "CONTACT US",
+  "quickLinks": "Quick Links",
+  "ourServices": "Our Services",
+  "contactTitle": "Contact Us",
+  "follow": "Follow on :",
+  "copyright": "Interacti Marketing Agency, All Rights Reserved.",
+  "terms": "Terms and Conditions | Privacy Policy",
+ "links": [
+  { "label": "Home", "slug": "home" },
+  { "label": "Projects", "slug": "projects" },
+  { "label": "About", "slug": "about" },
+  { "label": "Blog", "slug": "blog" },
+  { "label": "FAQ", "slug": "faq" },
+  { "label": "Terms of Service", "slug": "terms-of-service" }
+],
+"services": [
+  { "label": "SEO", "slug": "SEO" },
+  { "label": "Digital Marketing", "slug": "Digital Marketing" },
+  { "label": "Web Design & Development", "slug": "Web Design & Development" },
+  { "label": "Creative Design", "slug": "Creative Design" },
+  { "label": "LinkedIn Growth", "slug": "LinkedIn Growth" },
+  { "label": "Consulting", "slug": "Consulting" },
+  { "label": "Media Production", "slug": "Media Production" }
+]}

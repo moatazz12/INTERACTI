@@ -57,3 +57,45 @@ html {
 a, button, .transition {
   transition: color var(--transition), background var(--transition), box-shadow var(--transition), transform var(--transition);
 }
+
+.breadcrumb-gradient {
+  background: transparent;
+  display: inline-block;
+  border: 2px solid transparent;
+  position: relative;
+}
+.breadcrumb-gradient::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(90deg, #6F47BB, #FBD915);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.form-input {
+  @apply p-3 border border-gray-300 rounded-md text-sm;
+}
+
+.btn-submit {
+  @apply px-8 py-3 rounded-full bg-[#fbd9151a] border border-[#fbd915] text-[#301f50] font-bold;
+}
+
+
+
+ 
+/* Teba3 page 404.tsx */
+
+.clip-right {
+  clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+  z-index: 0;
+}
+
+.clip-left {
+  clip-path: polygon(0 0, 140% 0, 0 100%);
+  z-index: 1;
+}

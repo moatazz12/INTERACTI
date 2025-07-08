@@ -1,0 +1,28 @@
+{
+  "faqTitle": "FAQ",
+  "breadcrumbHome1": "Home",
+  "breadcrumbFAQ": "FAQ",
+  "faqHeading": "Your Questions, Our Answers",
+  "faqItems": [
+    {
+      "question": "What is digital marketing?",
+      "answer": "Digital marketing encompasses all marketing efforts using the internet or electronic devices."
+    },
+    {
+      "question": "Why is SEO important?",
+      "answer": "SEO helps increase organic traffic to your website, improving visibility and search rankings."
+    },
+    {
+      "question": "How do I create a digital marketing strategy?",
+      "answer": "A digital marketing strategy is based on goals, target audience, tactics (SEO, content, paid ads), and performance tracking."
+    },
+    {
+      "question": "How long does digital marketing take to show results?",
+      "answer": "SEO may take 3–6 months, while paid campaigns can yield quicker results depending on the strategy."
+    },
+    {
+      "question": "What is social media marketing?",
+      "answer": "Social media marketing involves using platforms like Facebook, Instagram, and LinkedIn to reach and engage with customers."
+    }
+  ]
+}

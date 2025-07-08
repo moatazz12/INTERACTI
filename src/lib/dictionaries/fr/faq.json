@@ -1,0 +1,28 @@
+{
+  "faqTitle": "FAQ",
+  "breadcrumbHome1": "Accueil",
+  "breadcrumbFAQ": "FAQ",
+  "faqHeading": "Vos Questions, Nos Réponses",
+  "faqItems": [
+    {
+      "question": "Qu'est-ce que le marketing digital ?",
+      "answer": "Le marketing digital englobe toutes les actions marketing utilisant Internet ou des appareils électroniques."
+    },
+    {
+      "question": "Pourquoi le SEO est-il important ?",
+      "answer": "Le SEO aide à augmenter le trafic organique vers votre site web, améliorant ainsi la visibilité et le classement sur les moteurs de recherche."
+    },
+    {
+      "question": "Comment créer une stratégie de marketing digital ?",
+      "answer": "Une stratégie de marketing digital repose sur des objectifs, une audience cible, des tactiques (SEO, contenu, publicités payantes) et le suivi des performances."
+    },
+    {
+      "question": "Combien de temps faut-il pour que le marketing digital produise des résultats ?",
+      "answer": "Le SEO peut prendre de 3 à 6 mois, tandis que les campagnes payantes peuvent produire des résultats plus rapidement, selon la stratégie."
+    },
+    {
+      "question": "Qu'est-ce que le marketing sur les réseaux sociaux ?",
+      "answer": "Le marketing sur les réseaux sociaux consiste à utiliser des plateformes comme Facebook, Instagram et LinkedIn pour atteindre et interagir avec les clients."
+    }
+  ]
+}

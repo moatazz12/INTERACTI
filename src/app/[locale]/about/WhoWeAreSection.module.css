@@ -1,0 +1,44 @@
+/* WhoWeAreSection.module.css */
+.whoWeAreSection {
+  position: relative;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #fff;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.gridCols45_55 {
+  display: grid;
+  grid-template-columns: 1fr; /* mobile par défaut */
+  gap: 2rem; /* ~gap-8 (32px) */
+}
+
+@media (min-width: 1024px) {
+  .gridCols45_55 {
+    grid-template-columns: 45% 55%;
+    gap: 4rem; /* ~gap-16 (64px) */
+  }
+}
+
+@media (min-width: 1280px) {
+  .gridCols45_55 {
+    gap: 4.5rem; /* ~gap-18 (72px) */
+  }
+}
+
+@media (max-width: 600px) {
+  .whoWeAreSection {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+}
+
+@keyframes fadeInImage {
+  from { opacity: 0; transform: translateY(32px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animateFadeInImage {
+  animation: fadeInImage 0.8s cubic-bezier(.4,2,.3,1) both;
+} 

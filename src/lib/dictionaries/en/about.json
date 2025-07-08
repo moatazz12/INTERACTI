@@ -1,0 +1,154 @@
+{
+  "about": {
+    "hero": {
+      "activeUnderlineTitle":"About",
+      "title": "About",
+      "breadcrumbHome": "Home",
+      "breadcrumbAbout":"About"
+    },
+    "aboutSection": {
+      "title": "Innovation Starts With Us",
+      "teamImage": {
+        "alt": "Our creative team at work",
+        "title": "Meet Our Creative Team",
+        "description": "Behind every successful campaign at Interacti Marketing Agency is a team of digital experts driven by passion, creativity, and precision. From designers and developers to strategists and marketers, we work together to craft bold ideas and deliver measurable impact. We're not just a team — we're your growth partners."
+      },
+      "cards": {
+        "vision": {
+          "title": "Our Vision",
+          "description": "At Interacti Marketing Agency, our vision is to shape bold, high-impact brand experiences by blending strategy, innovation, and design. We believe in transforming businesses through powerful storytelling, creative identity, and data-driven thinking.",
+          "imageAlt": "Our Vision"
+        },
+        "expertise": {
+          "title": "Our Expertise",
+          "description": "Specialized in digital marketing, branding, and UX design, our team delivers tailored solutions that engage, convert, and inspire. Every project is a chance to create something that makes your brand stand out.",
+          "imageAlt": "Our Expertise"
+        },
+        "commitment": {
+          "title": "Our Commitment",
+          "description": "We are committed to excellence, creativity, and measurable results. With the boldness of purple and the prestige of gold, Interacti stands for digital strategies that are both modern and impactful.",
+          "imageAlt": "Our Commitment"
+        }
+      }
+    },
+    "whoWeAre": {
+      "title": "Who We Are",
+      "subtitle": "Your Trusted Digital Marketing Partner in Tunisia",
+      "description": "Interacti Marketing Agency is a results-driven digital agency based in Sfax, Tunisia. We help ambitious brands grow smarter with a full range of data-powered marketing solutions, from SEO and content to design, development, and digital strategy. Our team of passionate experts combines creativity with precision to deliver measurable results and long-term value for every client. Since 2024, we've been building strategies that optimize, generate, and grow."
+    },
+    "whyChoose": {
+      "title": "Why Choose Interacti?",
+      "subtitle": "We Empower Your Brand and Grow Together",
+      "description": "At Interacti Marketing Agency, we build long-term partnerships and deliver meaningful results. You focus on what you do best — we'll make sure your digital growth never stops.",
+      "reasons": [
+        {
+          "title": "Proven Strategy",
+          "description": "We craft data-informed, tailored plans that align with your goals."
+        },
+        {
+          "title": "Dedicated Experts",
+          "description": "Our team brings a human touch with technical excellence — always by your side."
+        },
+        {
+          "title": "Performance & Results",
+          "description": "We track everything. We optimize everything. And we deliver growth that matters."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Our Numbers",
+      "subtitle": "The impact of our work",
+      "description": "We measure success through concrete results and lasting partnerships.",
+      "metrics": [
+        {
+          "src":"https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "50+",
+          "label": "Expert Team Members"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "1000+",
+          "label": "Projects Delivered"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "98%",
+          "label": "Client Satisfaction"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "200+",
+          "label": "Support Agents"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "120+",
+          "label": "Successful Campaigns"
+        },
+        {
+          "src":"https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+          "number": "85+",
+          "label": "Happy Clients"
+        }
+      ]
+    },
+    "coreValues": {
+      "title": "Our Core Values",
+      "subtitle": "What guides us",
+      "values": [
+        {
+          "title": "Excellence",
+          "description": "We aim for the highest standards — in quality, creativity, and client satisfaction."
+        },
+        {
+          "title": "Integrity",
+          "description": "We act with honesty, transparency, and respect — always."
+        },
+        {
+          "title": "Boldness",
+          "description": "We dare to think differently, challenge norms, and create what stands out."
+        },
+        {
+          "title": "Collaboration",
+          "description": "We grow together — as a team, with our clients, and through shared vision."
+        },
+        {
+          "title": "Empathy",
+          "description": "We listen deeply to understand needs, and build solutions that serve real people."
+        },
+        {
+          "title": "Impact",
+          "description": "We focus on work that creates real, measurable value for every brand we touch."
+        }
+      ]
+    },
+    "connect": {
+      "title": "Connect With Us",
+      "subtitle": "Ready to transform your brand?",
+      "description": "We'd love to stay in touch! Follow Interacti Marketing Agency on your favorite platform and join a growing community of marketers, entrepreneurs, and changemakers.",
+      "cta": "Start a project",
+      "socialMedia": {
+        "linkedin": {
+          "title": "LinkedIn",
+          "subtitle": "Join our professional circle",
+          "url": "https://www.linkedin.com/company/interactiagency/"
+        },
+        "twitter": {
+          "title": "X",
+          "subtitle": "Get the latest updates",
+          "url": "https://x.com/interactiagency/"
+        },
+        "instagram": {
+          "title": "Instagram",
+          "subtitle": "Explore our visual universe",
+          "url": "https://www.instagram.com/interactiagency/"
+        },
+        "facebook": {
+          "title": "Facebook",
+          "subtitle": "Join the conversation",
+          "url": "https://www.facebook.com/interactiagency"
+        }
+      }
+    }
+  }
+} 
