@@ -1,0 +1,535 @@
+/* Container & Structure */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0 32px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.subtitleWrapper {
+  margin-bottom: 16px;
+}
+
+.gradientText {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background: linear-gradient(90deg, #330052 0%, #ffd900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #330052;
+  font-size: 2.8rem;
+  font-weight: 650;
+  text-align: center;
+  line-height: 1.1;
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.processIntro {
+  color: #696679;
+  text-align: center;
+  font-size: 1.08rem;
+  font-weight: 400;
+  margin: 16px auto 10px auto;
+  max-width: 540px;
+  line-height: 1.6;
+  display: block;
+}
+
+/* Steps Zigzag */
+.stepsZigzagWrapper {
+  position: relative;
+  width: 100%;
+  margin: 80px 0 0 0;
+  min-height: 180px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.stepsZigzag {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(140px, 1fr));
+  grid-template-rows: 90px 90px;
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.zigzagLine {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1100px;
+  height: 180px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.stepZigzag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Ajustement du contenu centré pour steps 1 et 3 */
+.stepZigzag:nth-child(1) .stepContent,
+.stepZigzag:nth-child(3) .stepContent {
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Correction pour steps 2 et 4 (éviter qu’ils remontent trop) */
+.stepZigzag:nth-child(2),
+.stepZigzag:nth-child(4) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;          /* Augmentation pour contenir le contenu absolu */
+  padding-top: 70px;      /* Espace pour le texte en haut */
+  align-self: flex-start;
+}
+
+.stepZigzag:nth-child(2) .stepContent,
+.stepZigzag:nth-child(4) .stepContent {
+  position: absolute;
+  top: -90px;             /* Décalage vertical réduit */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;             /* Limite la largeur */
+  max-width: 280px;       /* Largeur max pour éviter débordement */
+  text-align: center;
+  margin: 0;
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconCircle {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 6px 32px 0 rgba(51, 0, 82, 0.12), 0 1.5px 6px 0 rgba(51, 0, 82, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  border: 2.5px solid #F5F3FF;
+  aspect-ratio: 1 / 1;
+  transition: box-shadow 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.iconCircle:hover {
+  box-shadow: 0 16px 48px 0 rgba(51, 0, 82, 0.22), 0 4px 16px 0 rgba(51, 0, 82, 0.13);
+  border-color: #FFD900;
+  transform: scale(1.08) translateY(-6px);
+}
+
+.iconCircle img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  display: block;
+}
+
+/* Desktop (default) */
+.stepNumber {
+  position: absolute;
+  top: -14px;
+  left: -14px;
+  width: 36px;
+  height: 36px;
+  background: #ffd900;
+  color: #330052;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px 0 rgba(51, 0, 82, 0.10);
+  z-index: 2;
+  aspect-ratio: 1 / 1;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.stepTitle {
+  color: #330052;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  transition: color 0.3s, transform 0.3s, background-position 0.5s;
+}
+
+.stepDesc {
+  color: #88849B;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.stepZigzag:hover .stepNumber {
+  box-shadow: 0 8px 24px 0 rgba(255, 217, 0, 0.25);
+  transform: scale(1.13) translateY(-4px);
+}
+
+.stepZigzag:hover .stepTitle {
+  background: linear-gradient(90deg, #330052 0%, #ffd900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: unset;
+  transform: translateY(-2px) scale(1.04);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+}
+
+.stepZigzag:hover .stepDesc {
+  color: #330052;
+  transform: translateY(-2px) scale(1.03);
+}
+
+/* Review Block */
+.reviewBlockWrapper {
+  margin-top: 85px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviewBlockDivider {
+  width: 70%;
+  border: none;
+  border-top: 1.5px solid #BDB6D4;
+  margin-bottom: 36px;
+}
+
+.reviewBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.reviewItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 240px;
+}
+
+.reviewIcon {
+  width: 58px;
+  height: 58px;
+  background: #330052;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 32px 0 rgba(51, 0, 82, 0.12), 0 1.5px 6px 0 rgba(51, 0, 82, 0.06);
+  flex-shrink: 0;
+}
+
+.reviewIcon svg {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.reviewText {
+  color: #330052;
+  font-size: 1.08rem;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  text-align: left;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.reviewBlockSep {
+  width: 1.5px;
+  height: 64px;
+  background: #E5E3E8;
+  margin: 0 32px;
+  border-radius: 2px;
+  align-self: center;
+}
+
+/* Decorative Elements */
+.decorativeBlob {
+  position: absolute;
+  top: -160px;
+  left: -130px;
+  width: 280px;
+  height: 200px;
+  background: radial-gradient(ellipse 60% 60% at 60% 40%, #FFF9E3 60%, #FFF6C3 90%, transparent 100%);
+  opacity: 0.45;
+  border-radius: 55% 45% 60% 80% / 60% 60% 40% 80%;
+  z-index: 1;
+  pointer-events: none;
+  filter: blur(1.5px);
+  transition: opacity 0.3s;
+}
+
+.bottomLeftBlob {
+  position: absolute;
+  bottom: 140px;
+  left: 0;
+  width: 180px;
+  max-width: 40vw;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.verticalLine {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .stepsZigzag, .zigzagLine {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 900px) {
+  .stepsZigzagWrapper, .stepsZigzag, .zigzagLine {
+    max-width: 100%;
+    min-width: 0;
+  }
+  .stepsZigzagWrapper {
+    min-height: 0;
+    padding-bottom: 0;
+  }
+  .zigzagLine {
+    display: none;
+  }
+  .stepsZigzag {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .stepZigzag {
+    width: 100%;
+    max-width: 340px;
+  }
+  .reviewBlock {
+    flex-direction: column;
+    gap: 32px;
+    max-width: 100%;
+  }
+  .reviewBlockSep {
+    width: 64px;
+    height: 1.5px;
+    margin: 32px 0;
+  }
+  .reviewItem {
+    min-width: 0;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .stepsZigzagWrapper {
+    height: auto;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+  }
+  .title {
+    margin-bottom: 8px;
+  }
+  .stepsZigzag {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+    gap: 0;
+  }
+  .stepZigzag {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto 32px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    box-shadow: none;
+    margin-bottom: 0;
+  }
+  .stepZigzag:last-child {
+    margin-bottom: 0;
+  }
+  .iconCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 8px;
+    width: 60px;
+    height: 60px;
+  }
+  .stepNumber {
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    width: 36px;
+    height: 36px;
+    background: #ffd900;
+    color: #330052;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px 0 rgba(51, 0, 82, 0.10);
+    z-index: 2;
+    aspect-ratio: 1 / 1;
+  }
+  .stepContent {
+    position: static !important;
+    margin-top: 0 !important;
+    text-align: center;
+    max-width: 90vw;
+    padding: 0 8px;
+    margin-bottom: 0;
+  }
+  .stepTitle {
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    word-break: break-word;
+  }
+  .stepDesc {
+    font-size: 0.95rem;
+    margin: 0;
+    color: #88849B;
+    line-height: 1.4;
+    text-align: center;
+    word-break: break-word;
+  }
+  .verticalLine {
+    display: block;
+    width: 3px;
+    height: 32px;
+    background: linear-gradient(to bottom, #E5E3E8 60%, #fff 100%);
+    margin: 24px auto 24px auto;
+  }
+  .stepZigzag:not(:last-child) .verticalLine {
+    display: block;
+  }
+  .stepZigzag:last-child .verticalLine {
+    display: none !important;
+  }
+  .stepZigzag:nth-child(2) .stepContent,
+  .stepZigzag:nth-child(4) .stepContent {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .stepZigzag {
+    position: relative;
+    margin-bottom: 66px;
+  }
+  .stepZigzag:last-child {
+    margin-bottom: 0;
+  }
+  .verticalLine {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -66px;
+    width: 3px;
+    height: 32px;
+    background: linear-gradient(to bottom, #E5E3E8 60%, #fff 100%);
+    margin: 0;
+    display: block;
+  }
+  .stepZigzag:last-child .verticalLine {
+    display: none !important;
+  }
+  .stepNumber {
+    width: 28px;
+    height: 28px;
+    font-size: 0.95rem;
+    top: -12px;
+    left: -12px;
+  }
+  .decorativeBlob,
+  .bottomLeftBlob {
+    display: none !important;
+  }
+}
+
+/* Ajouts pour remplacer les styles inline supprimés dans ProcessSection.tsx */
+.processSectionRelative {
+  position: relative;
+  overflow: hidden;
+}
+
+.stepZigzagRelative {
+  position: relative;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.stepZigzagRow1 {
+  grid-row: 1;
+}
+.stepZigzagRow2 {
+  grid-row: 2;
+}
+.stepZigzagCol1 {
+  grid-column: 1;
+}
+.stepZigzagCol2 {
+  grid-column: 2;
+}
+.stepZigzagCol3 {
+  grid-column: 3;
+}
+.stepZigzagCol4 {
+  grid-column: 4;
+}

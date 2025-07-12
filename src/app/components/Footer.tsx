@@ -33,9 +33,9 @@ const Footer: React.FC = () => {
   const quickLinks = dict.links;
   const services = dict.services;
   const contactInfo = [
-    { icon: <MapPin className="w-4 h-4 text-[#FBD915]" />, text: "N°30, Av 5 Août, Rue de Misrata, 3002" },
-    { icon: <Phone className="w-4 h-4 text-[#FBD915]" />, text: "+216 25 936 938" },
-    { icon: <Mail className="w-4 h-4 text-[#FBD915]" />, text: "Contact@interactiagency.com" },
+    { icon: <MapPin className="w-4 h-4 text-[#FFD900]" />, text: "N°30, Av 5 Août, Rue de Misrata, 3002" },
+    { icon: <Phone className="w-4 h-4 text-[#FFD900]" />, text: "+216 25 936 938" },
+    { icon: <Mail className="w-4 h-4 text-[#FFD900]" />, text: "Contact@interactiagency.com" },
   ];
   const socialIcons = [FaFacebook, RxCross2, FaLinkedin, FaInstagram, FaYoutube, FaDiscord, FaPinterest, FaWhatsapp];
 
@@ -44,14 +44,14 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-[#301f50] text-white px-6 py-10 sm:px-10 lg:px-32">
+    <footer className="bg-[#330052] text-white px-6 py-8 sm:px-10 lg:px-32">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Colonne 1 : Présentation */}
         <div>
-          <img src="/logo.png" alt="Logo" className="w-36 h-auto mb-4" />
+          <img src="/logo-gold.webp" alt="Logo" className="w-40 h-auto mb-0" />
           <p className="text-[#d9d9d9] text-sm">{dict.description}</p>
           <Link href={generateLocalizedPath("/contact")}>
-            <Button className="mt-4 bg-gradient-to-r from-[#301f50] to-[#fbd915] text-white rounded-full px-6 py-2 hover:opacity-90">
+            <Button className="mt-4 bg-gradient-to-r from-[#330052] to-[#FFD900] text-white rounded-full px-6 py-2 hover:opacity-90">
               {dict.contactUs}
             </Button>
           </Link>
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
               const path = "/" + text.slug.toLowerCase().replace(/\s+/g, "-");
               return (
                 <li key={i}>
-                  <Link href={generateLocalizedPath(path)} className="flex items-center text-[#d9d9d9] hover:text-[#FBD915] transition-colors">
+                  <Link href={generateLocalizedPath(path)} className="flex items-center text-[#d9d9d9] hover:text-[#FFD900] transition-colors">
                     <ChevronRight className="w-4 h-4 mr-2" /> {text.label}
                   </Link>
                 </li>
@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
             {services.map((service, i) => (
               <li key={i} className="flex items-center text-[#d9d9d9]">
                 <ChevronRight className="w-4 h-4 mr-2" />
-                <ServiceLink serviceTitle={service.slug} className="text-[#d9d9d9] hover:text-[#FBD915]"  />
+                <ServiceLink serviceTitle={service.slug} className="text-[#d9d9d9] hover:text-[#FFD900]"  />
               </li>
             ))}
           </ul>
@@ -119,7 +119,7 @@ const Footer: React.FC = () => {
           <span className="text-[#d9d9d9]">{dict.follow}</span>
           <div className="flex space-x-3">
             {socialIcons.map((Icon, i) => (
-              <Icon key={i} className="text-[#d9d9d9] w-5 h-5 hover:text-[#FBD915] transition-colors" />
+              <Icon key={i} className="text-[#d9d9d9] w-5 h-5 hover:text-[#FFD900] transition-colors" />
             ))}
           </div>
         </div>

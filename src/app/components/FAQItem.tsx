@@ -20,7 +20,7 @@ const FAQItem = ({ question, answer, index, openIndex, toggleFAQ }: FAQItemProps
       >
         <div
           className={`w-[45px] h-[45px] rounded-[10px] flex items-center justify-center mr-4 ${
-            index === openIndex ? 'bg-[#FBD915]' : 'bg-[#301f50]'
+            index === openIndex ? 'bg-[#FFD900]' : 'bg-[#330052]'
           }`}
         >
           {index === openIndex ? (

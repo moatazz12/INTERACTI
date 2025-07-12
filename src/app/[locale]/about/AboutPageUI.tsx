@@ -21,7 +21,7 @@ export default function AboutPageUI({ dict }: AboutPageUIProps) {
 
   return (
     <>
-      <section className="min-h-[35vh] bg-[#301F50] text-white font-sans">
+      <section className="min-h-[35vh] bg-[#330052] text-white font-sans">
         <NavBar activeUnderline={about.hero.activeUnderlineTitle} />
         <div className="flex flex-col items-center justify-center text-center py-10 md:py-3 px-4">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">{about.hero.title}</h1>

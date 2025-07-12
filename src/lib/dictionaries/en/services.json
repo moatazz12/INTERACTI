@@ -1,0 +1,1031 @@
+[
+  {
+    "slug": "seo",
+    "title": "SEO",
+    "image": "/seobanner.jpg",
+    "hero": {
+      "icon": "/icons/seo_hero.png",
+      "heading": "Search Engine Optimization - SEO Agency",
+      "subheading": "Boost your visibility, dominate search results, and grow smarter with Interacti’s performance-driven SEO strategies.",
+      "introParagraphs": [
+        "At Interacti Marketing Agency, SEO isn’t just about ranking — it’s about building long-term visibility, credibility, and growth.",
+        "Whether you're a local business in Tunisia or a global brand, our SEO services are engineered to connect you with the right audience, at the right time, through the right search intent.",
+        "We blend technical expertise, content strategy, and on-page precision to help you rank higher — and stay there. Because real growth starts when your brand gets found."
+      ]
+    },
+    "whatIs": {
+      "icon": "/icons/seoo.png",
+      "title": "What Is Search Engine Optimization (SEO)?",
+      "descriptionParagraphs": [
+        "Search Engine Optimization, or SEO, is the practice of improving your website’s visibility in search engine results like Google, Bing, and others.",
+        "When done right, SEO helps you appear at the exact moment people are searching for the products or services you offer — without paying for ads.",
+        "But SEO is more than keywords and links. It's a long-term digital strategy built on relevance, authority, and user experience. From optimizing website structure and loading speed to creating helpful content and earning backlinks, SEO is the foundation of sustainable online growth.",
+        "Whether your goal is to get found locally or rank internationally, SEO is the smartest investment you can make for your brand."
+      ]
+    },
+    "offersTitle":"What We Offer in SEO Services",
+    "offersIntro": "At Interacti, our SEO approach is not one-size-fits-all. We tailor our strategies to your business goals, industry, and target audience — with precision and measurable impact.",
+    "offers": [
+      {
+        "icon": "/icons/TechnicalSEOAudits.png",
+        "title": "Technical SEO Audits",
+        "description": "We analyze your site structure, speed, indexing, and crawlability to uncover technical blockers and fix them fast."
+      },
+      {
+        "icon": "/icons/keyword.png",
+        "title": "Keyword Research & Strategy",
+        "description": "We identify high-value keywords based on search intent, competition, and your conversion goals."
+      },
+      {
+        "icon": "/icons/on-page.png",
+        "title": "On-Page Optimization",
+        "description": "From meta titles and headings to internal linking and content hierarchy, we ensure your pages are built to rank."
+      },
+      {
+        "icon": "/icons/contentseo.png",
+        "title": "Content SEO",
+        "description": "We create optimized, useful, and AI-friendly content that drives traffic and improves topical authority."
+      },
+      {
+        "icon": "/icons/LinkBuilding.png",
+        "title": "Off-Page SEO & Link Building",
+        "description": "We help your site earn authority through strategic backlinks and local citations."
+      },
+      {
+        "icon": "/icons/InternationalSEO.png",
+        "title": "Local & International SEO",
+        "description": "Whether you serve a single city or multiple countries, we align your presence with your reach."
+      },
+      {
+        "icon": "/icons/track.png",
+        "title": "Performance Tracking & Reporting",
+        "description": "Transparent dashboards, clear KPIs, and constant data-driven improvements."
+      }
+    ],
+    "specializedServicesTitle": "Our Specialized SEO Services",
+    "specializedServicesIntro": "From local searches to large-scale enterprise optimization, Interacti delivers expert SEO services tailored to every business model.",
+    "specializedServices": [
+      {
+        "icon": "/icons/locale.png",
+        "title": "Local SEO",
+        "description": "Help customers in your area find you fast. Perfect for physical stores, clinics, restaurants, or any location-based business.",
+        "points": [
+          "Optimize your Google Business Profile",
+          "Build local citations and listings",
+          "Create geo-targeted landing pages"
+        ]
+      },
+      {
+        "icon": "/icons/TechnicalSEO.png",
+        "title": "Technical SEO",
+        "description": "Your site’s foundation matters. We fix errors, enhance speed, and ensure search engines can crawl and index your content.",
+        "points": [
+          "Conduct technical SEO audits",
+          "Improve site speed and mobile UX",
+          "Resolve crawl issues and indexation problems"
+        ]
+      },
+      {
+        "icon": "/icons/eCommerceSEO.png",
+        "title": "eCommerce SEO",
+        "description": "Get your products discovered by ready-to-buy customers. Ideal for online shops and marketplaces.",
+        "points": [
+          "Optimize product titles, descriptions, and schema",
+          "Improve category and filter page structure",
+          "Reduce cart abandonment with SEO-friendly UX"
+        ]
+      },
+      {
+        "icon": "/icons/EnterpriseSEO.png",
+        "title": "Enterprise SEO",
+        "description": "Scale your SEO across large sites and multisite networks with consistency and control.",
+        "points": [
+          "Build scalable SEO architecture",
+          "Manage multilingual and multi-regional strategies",
+          "Align SEO with internal teams and marketing goals"
+        ]
+      },
+      {
+        "icon": "/icons/GEO.png",
+        "title": "Generative Engine Optimization (GEO)",
+        "description": "Get visible in AI-powered results like Google AI Overviews, ChatGPT, and Perplexity.",
+        "points": [
+          "Structure your content for AI-readability",
+          "Implement advanced schema and semantic SEO",
+          "Optimize for featured snippets and direct answers"
+        ]
+      }
+    ],
+    "whyChoose": {
+      "title": "Why Choose Interacti?",
+      "intro": "With so many agencies offering SEO, what makes Interacti different?",
+      "points": [
+        {
+          "title": "Custom-Built Strategies",
+          "description": "Every SEO plan we design is tailored to your industry, market, and goals. No templates. No shortcuts."
+        },
+        {
+          "title": "Human-Led, Data-Driven",
+          "description": "Our SEO experts combine strategic thinking with advanced tools and analytics — always focused on performance."
+        },
+        {
+          "title": "Local Expertise, Global Reach",
+          "description": "Based in Tunisia, we work with clients worldwide and optimize for multi-regional, multilingual search."
+        },
+        {
+          "title": "AI-Friendly SEO",
+          "description": "We prepare your content for the future of search — including AI engines like Google SGE, ChatGPT, and Perplexity."
+        },
+        {
+          "title": "End-to-End Execution",
+          "description": "From audits to implementation and reporting, we handle every aspect of SEO under one roof."
+        }
+      ],
+      "footer": "Choosing Interacti Marketing Agency means choosing growth that lasts."
+    },
+    "method": {
+      "title": "Our SEO Process",
+      "intro": "Step-by-step approach to SEO success.",
+      "steps": [
+        {
+          "title": "Discovery & Audit",
+          "description": "Comprehensive analysis of your website, market, competitors, and search intent opportunities."
+        },
+        {
+          "title": "Strategy & Planning",
+          "description": "Crafting a custom SEO roadmap that aligns with your business goals, budget, and timeline."
+        },
+        {
+          "title": "On-Page Optimization",
+          "description": "Optimizing your content, structure, tags, and internal linking to make your site Google-ready."
+        },
+        {
+          "title": "Content Creation",
+          "description": "Creating SEO-optimized content that ranks, converts, and supports your brand voice."
+        },
+        {
+          "title": "Technical SEO Fixes",
+          "description": "Resolving issues affecting indexing, speed, crawlability, and mobile performance."
+        },
+        {
+          "title": "Link Building",
+          "description": "Developing white-hat link strategies to build authority and relevance."
+        },
+        {
+          "title": "Reporting & Optimization",
+          "description": "Monitoring KPIs, reporting monthly, and continuously improving your strategy."
+        }
+      ],
+      "footer": "SEO isn’t magic. It’s methodical, consistent, and strategic — and that’s exactly how we do it."
+    },
+    "faqsection":{
+    "title": "Search Engine Optimization FAQs",
+    "faqs": [
+      {
+        "question": "How long does it take to see SEO results ?",
+        "answer": "SEO is a long-term investment. Most websites start seeing results in 3–6 months, but timing depends on your competition, website quality, and strategy. At Interacti Marketing Agency, we aim for both short-term gains and long-term growth."
+      },
+      {
+        "question": "What’s the difference between SEO and paid ads ?",
+        "answer": "SEO builds organic traffic over time, offering sustainable results without ongoing ad spend. Paid ads deliver immediate visibility but disappear when you stop paying. The ideal strategy includes both — and we can help you balance them."
+      },
+      {
+        "question": "Can SEO work for small businesses ?",
+        "answer": "Absolutely. In fact, local SEO is one of the most effective tools for small businesses to reach nearby customers and compete with bigger players online."
+      },
+      {
+        "question": "Is SEO still relevant with AI and ChatGPT taking over search ?",
+        "answer": "Yes — more than ever. SEO has evolved. Today, it includes structuring content for AI engines like Google AI Overviews, Perplexity, and ChatGPT. Interacti specializes in Generative Engine Optimization (GEO) to help you stay ahead ."
+      },
+      {
+        "question": "What’s included in your SEO service packages ?",
+        "answer": "We offer full-service SEO: technical audits, on-page optimization, content creation, link building, local SEO, and AI optimization. Every package is custom-built based on your needs and goals."
+      }                  
+    ]
+  }
+  },
+  {
+  "slug": "digital-marketing",
+  "title": "Digital Marketing",
+  "image": "/digitalmarketing.jpg",
+  "hero": {
+    "icon": "/icons/marketing.png",
+    "heading": "Digital Marketing Services",
+    "subheading": "Omnichannel Strategies That Attract, Convert, and Scale",
+    "introParagraphs": [
+      "Digital marketing is no longer optional — it’s the core engine of business growth. But in a noisy, fragmented online world, success requires more than posts and ads. It takes strategy, coordination, and measurable outcomes.",
+      "At Interacti Marketing Agency, we help businesses of all sizes — from startups to global brands — build digital ecosystems that drive awareness, leads, and revenue. Whether you need a full-funnel strategy or targeted channel support, our digital marketing services are built for results.",
+      "We don’t just generate clicks. We engineer outcomes."
+    ]
+  },
+  "whatIs": {
+    "icon": "/icons/what-is.png",
+    "title": "What Is Digital Marketing?",
+    "descriptionParagraphs": [
+      "Digital marketing is the practice of using online channels to reach your audience, promote your offer, and drive business results — from awareness to revenue.",
+      "It includes a mix of strategies and tools like:",
+      "• Content creation and SEO\n• Social media engagement\n• Paid ads (Google, Meta, LinkedIn)\n• E-commerce conversion funnels\n• Automation & CRM integration\n• Brand messaging & communication",
+      "But real digital marketing goes beyond tactics. It’s about creating a connected experience across the customer journey — where every interaction builds trust, moves users closer to action, and delivers value at every step.",
+      "When done right, digital marketing isn’t just marketing. It’s momentum."
+    ]
+  },
+  "offersTitle": "What We Offer in Digital Marketing Services",
+  "offersIntro": "At Interacti Marketing Agency, we deliver end-to-end digital marketing services designed to generate leads, build authority, and increase ROI — across every stage of the funnel.",
+  "offers": [
+    {
+      "icon": "/icons/content_marketing.png",
+      "title": "Content Marketing",
+      "description": "We plan, write, and optimize strategic content that ranks and converts — blogs, guides, videos, and more."
+    },
+    {
+      "icon": "/icons/social_media.png",
+      "title": "Social Media Marketing",
+      "description": "From content calendars to paid social campaigns, we manage your presence across platforms (Meta, LinkedIn, TikTok, etc.)"
+    },
+    {
+      "icon": "/icons/digital_ads.png",
+      "title": "Digital Advertising",
+      "description": "We create data-driven ad campaigns on Google Ads, Meta Ads, and other PPC channels to drive traffic and measurable conversions."
+    },
+    {
+      "icon": "/icons/ecommerce.png",
+      "title": "E-commerce Marketing",
+      "description": "We optimize product pages, design conversion funnels, and run campaigns that boost cart value and reduce abandonment."
+    },
+    {
+      "icon": "/icons/automation.png",
+      "title": "Marketing Automation",
+      "description": "We implement email flows, chatbots, and lead nurturing systems that scale your engagement without extra effort."
+    },
+    {
+      "icon": "/icons/communication.png",
+      "title": "Marketing Communication",
+      "description": "We define your brand voice, write persuasive copy, and ensure your message connects clearly with every audience."
+    }
+  ],
+  "specializedServicesTitle": "What’s Included in Our Digital Marketing Work",
+  "specializedServicesIntro": "Our digital marketing process is structured to deliver real results across all key areas of growth.",
+  "specializedServices": [
+    {
+      "icon": "/icons/content_strategy.png",
+      "title": "Content Marketing Strategy & Production",
+      "description": "We develop editorial strategies based on keyword intent, audience pain points, and funnel stages.",
+      "points": [
+        "Blog planning, SEO-driven content, long-form guides",
+        "Video scripting, creative visuals, and repurposing",
+        "Integration with SEO and sales goals"
+      ]
+    },
+    {
+      "icon": "/icons/social_activation.png",
+      "title": "Social Media Planning & Activation",
+      "description": "We manage both organic and paid content to build community and engagement.",
+      "points": [
+        "Platform-specific strategies (LinkedIn, Instagram, TikTok…)",
+        "Monthly calendars, trend-based content, stories & reels",
+        "Influencer collaborations & paid boosts"
+      ]
+    },
+    {
+      "icon": "/icons/performance_ads.png",
+      "title": "Performance-Driven Digital Advertising",
+      "description": "We design ROI-focused advertising campaigns across multiple platforms.",
+      "points": [
+        "Meta Ads (Facebook, Instagram)",
+        "Google Ads (Search, Display, YouTube)",
+        "Conversion tracking & A/B testing"
+      ]
+    },
+    {
+      "icon": "/icons/ecom_optimize.png",
+      "title": "E-commerce Marketing Optimization",
+      "description": "We help online stores convert visitors into buyers and increase average order value.",
+      "points": [
+        "Funnel design: product → cart → checkout",
+        "Abandoned cart recovery campaigns",
+        "Seasonal promotions & retargeting ads"
+      ]
+    },
+    {
+      "icon": "/icons/email_automation.png",
+      "title": "Marketing Automation & Email Sequences",
+      "description": "We automate lead capture, nurturing, and conversion with smart flows.",
+      "points": [
+        "Welcome emails, drip campaigns, reactivation flows",
+        "CRM integrations (HubSpot, Mailchimp, etc.)",
+        "Behavior-based triggers & segmentation"
+      ]
+    },
+    {
+      "icon": "/icons/messaging.png",
+      "title": "Brand Messaging & Marketing Communication",
+      "description": "We shape how your audience hears, feels, and remembers your brand.",
+      "points": [
+        "Brand voice definition",
+        "Key messages & editorial guidelines",
+        "Copywriting for websites, ads, emails & scripts"
+      ]
+    }
+  ],
+  "whyChoose": {
+    "title": "Why Choose Interacti for Your Digital Marketing Strategy?",
+    "intro": "You don’t need more tools — you need a partner who understands how to connect them into real strategy.",
+    "points": [
+      {
+        "title": "Multi-disciplinary Digital Team",
+        "description": "Content creators, media buyers, strategists, and analysts under one roof."
+      },
+      {
+        "title": "Result-Oriented Mindset",
+        "description": "We don’t sell tactics — we deliver impact through structured strategies."
+      },
+      {
+        "title": "Custom Plans, Not Templates",
+        "description": "Every campaign, calendar, and dashboard is designed around your brand’s needs."
+      },
+      {
+        "title": "B2B & B2C Expertise",
+        "description": "From e-commerce to service providers, we tailor our messaging and funnels to your market."
+      },
+      {
+        "title": "Strategic Agility",
+        "description": "We’re fast, flexible, and data-driven — ready to adapt when trends shift or platforms change."
+      }
+    ],
+    "footer": "You don’t need more digital noise. You need marketing that matters. We deliver that."
+  },
+  "method": {
+    "title": "Our Digital Marketing Process",
+    "intro": "We follow a proven, agile process that adapts to your industry, budget, and goals — delivering measurable results at every stage.",
+    "steps": [
+      {
+        "title": "Discovery & Goal Alignment",
+        "description": "Audit of your current presence, competitor benchmarking, and goal clarity for traffic, leads, and conversions."
+      },
+      {
+        "title": "Strategy & Channel Planning",
+        "description": "We map customer journeys, choose the right channels, and plan campaigns aligned with your business KPIs."
+      },
+      {
+        "title": "Content Creation & Campaign Setup",
+        "description": "Writing, visuals, video, ads — everything needed to launch effective campaigns."
+      },
+      {
+        "title": "Activation & Monitoring",
+        "description": "We monitor campaigns daily, adjusting strategy based on performance and signals."
+      },
+      {
+        "title": "Reporting & Optimization",
+        "description": "Weekly/monthly dashboards, continuous testing, and scaling of top performers to increase ROI."
+      }
+    ],
+    "footer": "Digital success isn’t a lucky shot. It’s a system. We build and manage it for you."
+  },
+  "faqsection":{
+  "title": "Digital Marketing Services FAQs",
+  "faqs": [
+    {
+      "question": "What is Digital Marketing?",
+      "answer": "It’s the use of online channels such as search engines, social media, email, and websites to promote a brand, attract customers, and drive measurable business results."
+    },
+    {
+      "question": "What does a Digital Marketer do?",
+      "answer": "A digital marketer plans, executes, and analyzes campaigns across digital platforms — managing SEO, content, paid ads, email marketing, analytics, and more."
+    },
+    {
+      "question": "Would my business benefit from Digital Marketing Services?",
+      "answer": "Almost certainly. Digital marketing helps increase visibility, generate leads, boost conversions, and grow customer loyalty — all with measurable data."
+    },
+    {
+      "question": "How cost-effective is Digital Marketing compared with Traditional Marketing?",
+      "answer": "Digital marketing is often more cost-efficient due to precise targeting, real-time optimization, and performance tracking. You can start small and scale based on ROI."
+    },
+    {
+      "question": "How do you identify a successful Digital Marketing Company?",
+      "answer": "Look for proven results, data transparency, tailored strategies, cross-platform capabilities, and a team that aligns with your goals — not just your budget."
+    }
+  ]}
+},
+{
+  "slug": "web-design-development",
+  "title": "Web Design & Development",
+  "image": "/design.jpg",
+  "hero": {
+    "icon": "/icons/webdesign.png",
+    "heading": "Web Design & Development Services",
+    "subheading": "We Design. We Build. You Grow.",
+    "introParagraphs": [
+      "A high-performing website isn’t just about design or development — it’s about alignment.",
+      "It must reflect your brand, guide your users, adapt to any screen, and convert consistently.",
+      "At Interacti Marketing Agency, we create seamless web experiences — combining UI/UX design, custom development, CMS integration, and performance optimization.",
+      "A good website attracts visitors. A great one converts them into customers."
+    ]
+  },
+  "whatIs": {
+    "icon": "/icons/whatis.png",
+    "title": "What Is Web Design & Development?",
+    "descriptionParagraphs": [
+      "Web design and development is the process of creating a functional, scalable, and engaging digital platform that reflects your brand and supports your goals.",
+      "Web Design focuses on structure, layout, visuals, and user experience.",
+      "Web Development turns that design into a responsive, interactive, and secure digital product.",
+      "Together, they deliver:\n• Custom functionality tailored to your business\n• Mobile-first, responsive experiences\n• SEO-friendly architecture and fast loading\n• Easy-to-manage content and integrations",
+      "Web design catches the eye. Web development keeps users coming back."
+    ]
+  },
+  "offersTitle": "What We Offer in Web Design & Development Services",
+  "offersIntro": "At Interacti Marketing Agency, we provide end-to-end web solutions — from user-focused design to scalable development — tailored to your business needs.",
+  "offers": [
+    {
+      "icon": "/icons/custom_design.png",
+      "title": "Custom Website Design",
+      "description": "Fully personalized website interfaces that reflect your brand and optimize the user experience."
+    },
+    {
+      "icon": "/icons/wordpress.png",
+      "title": "WordPress Website Design",
+      "description": "Flexible, SEO-friendly WordPress sites with custom themes and easy content management."
+    },
+    {
+      "icon": "/icons/webdev.png",
+      "title": "Web Development",
+      "description": "High-performance websites and applications built using modern technologies and frameworks."
+    },
+    {
+      "icon": "/icons/appdev.png",
+      "title": "App Development",
+      "description": "Native and cross-platform mobile apps designed for functionality, speed, and engagement."
+    },
+    {
+      "icon": "/icons/softwaredev.png",
+      "title": "Software Development",
+      "description": "Tailor-made business solutions, platforms, and internal tools built from scratch or customized."
+    },
+    {
+      "icon": "/icons/database.png",
+      "title": "Database Development",
+      "description": "Secure and efficient databases that power your digital services and automate your data flows."
+    }
+  ],
+  "specializedServicesTitle": "What’s Included in Our Web Design & Development Work",
+  "specializedServicesIntro": "Our services are modular, robust, and tailored for business performance and scalability.",
+  "specializedServices": [
+    {
+      "icon": "/icons/custom_design.png",
+      "title": "Custom Website Design",
+      "description": "Tailored website interfaces that reflect your brand and guide your visitors to action.",
+      "points": [
+        "Bespoke UI/UX design",
+        "Interactive wireframes & layouts",
+        "Brand-aligned visuals"
+      ]
+    },
+    {
+      "icon": "/icons/wordpress.png",
+      "title": "WordPress Website Design",
+      "description": "Flexible, optimized, and easy-to-manage WordPress websites — from the ground up.",
+      "points": [
+        "Custom WordPress themes",
+        "Gutenberg or Elementor integration",
+        "SEO-optimized structure"
+      ]
+    },
+    {
+      "icon": "/icons/webdev.png",
+      "title": "Web Development",
+      "description": "Responsive, scalable, and secure web products powered by modern code.",
+      "points": [
+        "HTML, CSS, JS, React, Next.js",
+        "Headless CMS (WordPress, Strapi…)",
+        "API integration and custom modules"
+      ]
+    },
+    {
+      "icon": "/icons/appdev.png",
+      "title": "App Development",
+      "description": "Smooth, fast, and functional mobile apps — iOS, Android, or cross-platform.",
+      "points": [
+        "UI/UX for mobile",
+        "Flutter, React Native, native dev",
+        "Store-ready deployment & testing"
+      ]
+    },
+    {
+      "icon": "/icons/softwaredev.png",
+      "title": "Software Development",
+      "description": "Custom software tools that solve business problems and streamline operations.",
+      "points": [
+        "Custom SaaS platforms",
+        "ERP, CRM, internal dashboards",
+        "Agile development with full support"
+      ]
+    },
+    {
+      "icon": "/icons/database.png",
+      "title": "Database Development",
+      "description": "We structure, develop, and secure your digital data foundation.",
+      "points": [
+        "Relational & non-relational databases",
+        "MySQL, PostgreSQL, MongoDB",
+        "Data automation & backups"
+      ]
+    }
+  ],
+  "whyChoose": {
+    "title": "Why Choose Interacti for Your Web Design & Development?",
+    "intro": "At Interacti Marketing Agency, we don’t just build websites — we build platforms that grow with you.",
+    "points": [
+      {
+        "title": "Design + Tech Under One Roof",
+        "description": "Our designers and developers collaborate from day one for faster, better, and smarter results."
+      },
+      {
+        "title": "Built for Performance and SEO",
+        "description": "Every site we create is fast, secure, mobile-first, and optimized for search engines."
+      },
+      {
+        "title": "Custom, Not Cookie-Cutter",
+        "description": "We build what your business needs — not what templates allow."
+      },
+      {
+        "title": "Expertise Across CMS and Code",
+        "description": "Whether you need WordPress, a headless CMS, or a fully coded solution, we’ve got you covered."
+      },
+      {
+        "title": "Global-Ready, Multi-language Design",
+        "description": "We deliver websites in English, French, and Arabic — optimized for UX and cultural clarity."
+      }
+    ],
+    "footer": "We don’t just launch websites. We engineer growth."
+  },
+  "method": {
+    "title": "Our Web Design & Development Process",
+    "intro": "Our process blends design thinking, technical expertise, and SEO strategy to ensure usability, scalability, and long-term success.",
+    "steps": [
+      {
+        "title": "Discovery & Planning",
+        "description": "We begin by understanding your goals, audience, and technical requirements through interviews, architecture planning, and competitor research."
+      },
+      {
+        "title": "UX/UI Design",
+        "description": "We create intuitive, visually compelling designs aligned with your brand identity, from wireframes to final mockups."
+      },
+      {
+        "title": "Development & Integration",
+        "description": "We build your website using modern frameworks, CMS, or custom code — with API and third-party tool integration."
+      },
+      {
+        "title": "Testing & QA",
+        "description": "We run rigorous testing across browsers and devices, optimizing performance and eliminating bugs."
+      },
+      {
+        "title": "Launch & Deployment",
+        "description": "We migrate your site from staging to production and configure hosting, SSL, analytics, and SEO tools."
+      },
+      {
+        "title": "Support & Evolution",
+        "description": "We stay involved with monthly maintenance, security updates, and feature expansions as you grow."
+      }
+    ],
+    "footer": "We don’t just finish your website — we future-proof it."
+  },
+  "faqsection":{
+  "title": "Web Design & Development FAQs",  
+  "faqs": [
+    {
+      "question": "How long does it take to design and develop a website?",
+      "answer": "It depends on the scope, but most websites take between 3 to 8 weeks from concept to launch."
+    },
+    {
+      "question": "Can you redesign my existing website?",
+      "answer": "Yes. We offer complete website redesigns to improve UX, performance, branding, and SEO."
+    },
+    {
+      "question": "Do I need to know how to code to manage my site?",
+      "answer": "No. We build websites with user-friendly CMS like WordPress so you can easily update content without coding."
+    },
+    {
+      "question": "Will my website be mobile-friendly and SEO-optimized?",
+      "answer": "Absolutely. All our websites are mobile-first, fast-loading, and built with on-page SEO best practices."
+    },
+    {
+      "question": "Do you provide hosting and maintenance?",
+      "answer": "Yes. We offer secure hosting and monthly maintenance plans to ensure your site stays updated and protected."
+    }
+  ]
+}
+},
+{
+    "slug": "creative-design",
+    "title": "Creative Design",
+    "image": "/creative-design.jpg",
+    "hero": {
+      "icon": "/icons/design.png",
+      "heading": "Creative Design",
+      "subheading": "Visual Identity That Captures Attention and Builds Trust",
+      "introParagraphs": [
+        "Design isn't just decoration. It's communication.",
+        "Your brand's design tells your story, expresses your values, and influences how people engage with your business.",
+        "At Interacti Marketing Agency, we don't just make things look good — we make them meaningful and results-driven.",
+        "Great design builds emotion. Smart design drives action."
+      ]
+    },
+    "whatIs": {
+      "icon": "/icons/whatisdesign.png",
+      "title": "What Is Creative Design?",
+      "descriptionParagraphs": [
+        "Creative design is the fusion of art and strategy — using visuals to communicate brand identity, values, and messages with clarity and impact.",
+        "It goes beyond aesthetics to serve key business goals:",
+        "• Differentiate your brand in a crowded market\n• Express your voice and personality visually\n• Guide users through digital experiences\n• Support marketing, sales, and engagement efforts",
+        "From logos to websites to motion graphics, creative design builds emotional connections and drives meaningful interaction.",
+        "Design is not what it looks like. It's how it works — and what it makes people feel."
+      ]
+    },
+    "offersTitle": "What We Offer in Creative Design Services",
+    "offersIntro": "At Interacti Marketing Agency, we blend creativity with purpose. Our design work is not just about visuals — it's about solving problems and telling stories through every pixel and frame.",
+    "offers": [
+      {
+        "icon": "/icons/branding.png",
+        "title": "Branding & Visual Identity",
+        "description": "We design logos, style guides, color systems, and brand assets that express your DNA."
+      },
+      {
+        "icon": "/icons/uiux.png",
+        "title": "UI/UX Design",
+        "description": "We create intuitive, elegant digital interfaces for websites, apps, and platforms — with user experience at the core."
+      },
+      {
+        "icon": "/icons/graphic.png",
+        "title": "Graphic Design",
+        "description": "From social media to business cards, we design sharp, impactful visuals that elevate your communication."
+      },
+      {
+        "icon": "/icons/motion.png",
+        "title": "Motion & 3D Design",
+        "description": "We bring your brand to life with animated graphics, explainer videos, and 3D renders that captivate attention."
+      }
+    ],
+    "specializedServicesTitle": "What's Included in Our Creative Design Work",
+    "specializedServicesIntro": "",
+    "specializedServices": [
+      {
+        "icon": "/icons/branding.png",
+        "title": "Branding",
+        "description": "We shape your brand's visual identity to reflect who you are — and why you matter.",
+        "points": [
+          "Logo design & brand marks",
+          "Color palette & typography systems",
+          "Brand guidelines & asset kits",
+          "Brand storytelling visuals"
+        ]
+      },
+      {
+        "icon": "/icons/uiux.png",
+        "title": "UI/UX Design",
+        "description": "We design user-centered web and app experiences that are beautiful and frictionless.",
+        "points": [
+          "Wireframes & user flows",
+          "Interface design (web/mobile)",
+          "Interactive prototypes",
+          "Conversion-oriented layout systems"
+        ]
+      },
+      {
+        "icon": "/icons/graphic.png",
+        "title": "Graphic Design",
+        "description": "We create compelling visuals that enhance your communication across print and digital.",
+        "points": [
+          "Social media creatives",
+          "Pitch decks & business documents",
+          "Brochures, flyers, and posters",
+          "Event visuals & packaging"
+        ]
+      },
+      {
+        "icon": "/icons/motion.png",
+        "title": "Motion & 3D Design",
+        "description": "We animate your ideas and products through powerful motion and 3D visuals.",
+        "points": [
+          "Logo animations & video intros",
+          "Explainer videos & reels",
+          "3D product renders",
+          "Animated ads and transitions"
+        ]
+      }
+    ],
+    "whyChoose": {
+      "title": "Why Choose Interacti for Your Creative Design Needs?",
+      "intro": "Design without strategy is decoration. At Interacti Marketing Agency, we create with purpose — where every visual element is aligned with your brand's mission, message, and market.",
+      "points": [
+        {
+          "title": "Design that performs, not just impresses",
+          "description": "Every graphic, layout, or animation we create serves a business goal."
+        },
+        {
+          "title": "Multidisciplinary creative team",
+          "description": "From branding to motion design, we bring diverse creative minds to each project."
+        },
+        {
+          "title": "Human-centered UX mindset",
+          "description": "Our interfaces are not just pretty — they're designed for usability and conversion."
+        },
+        {
+          "title": "Bilingual creative execution",
+          "description": "We design in both English and French, ensuring clarity and cultural fit across regions."
+        },
+        {
+          "title": "Brand consistency across platforms",
+          "description": "We align your visuals on social, web, ads, print, and beyond."
+        }
+      ],
+      "footer": "Creative design is how your brand *shows up* — let's make it unforgettable."
+    },
+      "method": {
+      "title": "Our Creative Design Process",
+      "intro": "We follow a clear and collaborative design process that blends creativity, strategy, and execution — all tailored to your brand's goals.",
+      "steps": [
+        {
+          "title": "Discovery & Briefing",
+          "description": "We explore your brand, audience, and visual challenges to define clear design objectives.",
+          "points": [
+            "Creative briefing sessions",
+            "Competitive design benchmarking",
+            "Visual identity audit"
+          ]
+        },
+        {
+          "title": "Concept Development",
+          "description": "We present moodboards, sketches, and initial ideas that align with your brand message and tone.",
+          "points": [
+            "Style exploration",
+            "Color palette & typography direction",
+            "Design concept presentation"
+          ]
+        },
+        {
+          "title": "Design Production",
+          "description": "We turn concepts into final assets — tailored to the platform and user experience.",
+          "points": [
+            "High-fidelity design files",
+            "Mobile, desktop, and print formats",
+            "Review loops & stakeholder feedback"
+          ]
+        },
+        {
+          "title": "Animation & Interaction (Optional)",
+          "description": "If applicable, we bring your design to life with motion or interactive components.",
+          "points": [
+            "Motion graphics & logo animation",
+            "UI interactions (hover, click, scroll)",
+            "Explainer or promotional videos"
+          ]
+        },
+        {
+          "title": "Delivery & Guidelines",
+          "description": "We deliver polished, ready-to-use files along with brand usage instructions.",
+          "points": [
+            "Final exports(web/print/video)",
+            "Design system documentation",
+            "Brand usage guides"
+          ]
+        },
+        {
+          "title": "Ongoing Creative Support",
+          "description": "We offer support for future design needs, updates, and adaptations.",
+          "points": [
+            "Monthly creative retainers",
+            "Versioning for campaigns",
+            "Cross-platform adaptations"
+          ]
+        }
+      ],
+      "footer": "Our process makes your brand more than just seen — it makes it remembered."
+    },
+    "faqsection": {
+      "title": "Creative Design FAQs",
+      "faqs": [
+        {
+          "question": "What's the difference between graphic design and branding?",
+          "answer": "Branding defines your visual identity (logo, colors, tone). Graphic design applies it to your communication materials — online and offline."
+        },
+        {
+          "question": "Can you redesign an existing brand or logo?",
+          "answer": "Yes. We offer full rebranding or brand refresh services, preserving what works and enhancing what needs improvement."
+        },
+        {
+          "question": "Do you deliver source files and guidelines?",
+          "answer": "Always. You'll receive editable design files (AI, PSD, Figma, etc.) along with usage instructions and visual standards."
+        },
+        {
+          "question": "Can you create bilingual or multilingual designs?",
+          "answer": "Absolutely. We design visuals in English, French, and Arabic — respecting each language's layout and cultural nuances."
+        },
+        {
+          "question": "Do you provide ongoing design support?",
+          "answer": "Yes. We offer monthly design retainers and on-demand creative services for campaigns, launches, or seasonal needs."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "linkedin-growth",
+    "title": "LinkedIn Growth",
+    "image": "/linkedin.jpg",
+    "hero": {
+      "icon": "/icons/linkedinlogo.png",
+      "heading": "LinkedIn Growth",
+      "subheading": "Turn Your LinkedIn Presence Into Real Opportunities",
+      "introParagraphs": [
+        "LinkedIn Isn't Just a Network. It's Your Digital Reputation.",
+        "Whether you're an entrepreneur, executive, recruiter, or brand --- LinkedIn is where your professional story begins.",
+        "At Interacti Marketing Agency, we transform LinkedIn profiles and company pages into high-performing assets. With the right strategy, visibility, and content, we turn your presence into real business impact.",
+        "Because today, people Google your name. But they trust your LinkedIn."
+      ]
+    },
+    "whatIs": {
+      "icon": "/icons/question.png",
+      "title": "What Is LinkedIn Growth?",
+      "descriptionParagraphs": [
+        "LinkedIn Growth is the process of building a strong, strategic, and credible presence on LinkedIn --- for individuals or companies --- to attract the right audience, create influence, and generate real opportunities.",
+        "It involves:",
+        "• Optimizing your personal or company profile\n• Positioning your brand with authority and clarity\n• Sharing value-driven content consistently\n• Growing your network with relevance\n• Turning visibility into trust --- and trust into leads or offers",
+        "At Interacti Marketing Agency, we don't just grow your numbers. We grow your influence, visibility, and professional credibility.",
+        "Because LinkedIn isn't a platform. It's a positioning tool."
+      ]
+    },
+    "offersTitle": "What We Offer in LinkedIn Growth Services",
+    "offersIntro": "At Interacti Marketing Agency, we offer LinkedIn Growth solutions for both individuals and organizations --- combining personal branding, profile optimization, and content strategy.",
+    "offers": [
+      {
+        "icon": "/icons/profile.png",
+        "title": "LinkedIn Profile Optimization",
+        "description": "We rewrite and restructure your personal profile to reflect authority, clarity, and strategic positioning --- tailored for recruiters, clients, or collaborators."
+      },
+      {
+        "icon": "/icons/linkedinpage.png",
+        "title": "LinkedIn Page Setup & Strategy",
+        "description": "We create or audit your company page, craft an optimized bio, and design a scalable content and growth plan."
+      },
+      {
+        "icon": "/icons/cv.png",
+        "title": "Resume Writing",
+        "description": "We align your CV with your LinkedIn profile to ensure consistency, credibility, and maximum impact."
+      },
+      {
+        "icon": "/icons/branding.png",
+        "title": "Personal Branding",
+        "description": "We help you define your expertise, style, and voice --- and translate it into a content plan that builds thought leadership."
+      }
+    ],
+    "specializedServicesTitle": "What's Included in Our LinkedIn Growth Services",
+    "specializedServicesIntro": "",
+    "specializedServices": [
+      {
+        "icon": "/icons/profile.png",
+        "title": "LinkedIn Profile Optimization",
+        "description": "We transform your profile into a professional, high-conversion asset.",
+        "points": [
+          "Headline and summary rewriting",
+          "Featured section curation",
+          "Experience and skills alignment",
+          "Custom banner design and visual polish",
+          "SEO keyword integration (job title, sector, services)"
+        ]
+      },
+      {
+        "icon": "/icons/linkedinpage.png",
+        "title": "LinkedIn Page Setup & Strategy",
+        "description": "We help your business show up --- and stand out --- on LinkedIn.",
+        "points": [
+          "Page creation or audit",
+          "Company bio & tagline rewriting",
+          "Visual branding (logo, cover, assets)",
+          "Publishing calendar and content pillars",
+          "Growth tactics and employee advocacy plan"
+        ]
+      },
+      {
+        "icon": "/icons/cv.png",
+        "title": "Resume Writing",
+        "description": "We write resumes that reflect your real value --- clearly and credibly.",
+        "points": [
+          "ATS-optimized formatting",
+          "Clarity of roles, achievements, and career path",
+          "Alignment with your LinkedIn voice",
+          "English or French versions available",
+          "Personal pitch and summary creation"
+        ]
+      },
+      {
+        "icon": "/icons/branding.png",
+        "title": "Personal Branding",
+        "description": "We define how the world perceives your expertise --- and help you lead with it.",
+        "points": [
+          "Voice and tone definition",
+          "Personal story framework",
+          "Key content themes and storytelling strategy",
+          "Posting schedule and engagement tactics",
+          "Content review and coaching"
+        ]
+      }
+    ],
+    "whyChoose": {
+      "title": "Why Choose Interacti for Your LinkedIn Growth Strategy?",
+      "intro": "At Interacti Marketing Agency, we've helped students, executives, freelancers, and companies grow on LinkedIn --- with strategies built on real human connection, not automation.",
+      "points": [
+        {
+          "title": "Proven personal and corporate experience",
+          "description": "We've grown our own agency and team on LinkedIn --- what we teach, we do."
+        },
+        {
+          "title": "Bilingual, culturally aware positioning",
+          "description": "We write in English or French with native nuance, adapted to Tunisian and international contexts."
+        },
+        {
+          "title": "Tailored, not templated",
+          "description": "Every profile, page, and plan is custom --- no generic copy-paste."
+        },
+        {
+          "title": "Organic growth, not bots",
+          "description": "We focus on reputation, relationships, and credibility --- not inflated numbers."
+        },
+        {
+          "title": "Deep LinkedIn platform knowledge",
+          "description": "From algorithm changes to community features --- we stay ahead so you don't have to."
+        }
+      ],
+      "footer": "We don't sell LinkedIn hacks. We build your professional identity."
+    },
+    "method": {
+      "title": "Our LinkedIn Growth Process",
+      "intro": "We use a strategic, human-first approach to help you build a powerful and consistent presence on LinkedIn.",
+      "steps": [
+        {
+          "title": "Discovery & Profile/Page Audit",
+          "description": "We begin by evaluating your current LinkedIn setup.",
+          "points": [
+            "Review of personal or company page",
+            "Voice, tone, and messaging analysis",
+            "Visual identity & content gaps",
+            "Audience and goal clarification"
+          ]
+        },
+        {
+          "title": "Strategy Design",
+          "description": "We create a roadmap tailored to your objectives and audience.",
+          "points": [
+            "Personal or company positioning",
+            "Content themes & content calendar",
+            "Growth strategy and interaction plan",
+            "Personal branding or brand voice definition"
+          ]
+        },
+        {
+          "title": "Profile & Asset Creation",
+          "description": "We build or refine your presence with high-quality, customized content.",
+          "points": [
+            "Profile rewrite and visuals",
+            "Cover banner and featured media",
+            "Resume (if applicable)",
+            "Page optimization or setup"
+          ]
+        },
+        {
+          "title": "Activation & Coaching",
+          "description": "We help you go live --- with clarity and confidence.",
+          "points": [
+            "Training on publishing and engagement",
+            "Weekly or bi-weekly coaching check-ins",
+            "Post writing support and review",
+            "Optional ghostwriting or content plan support"
+          ]
+        }
+      ],
+      "footer": "Growth happens when the message, the audience, and the timing all align --- we help you build that system."
+    },
+    "faqsection": {
+      "title": "LinkedIn Growth FAQs",
+      "faqs": [
+        {
+          "question": "Who is LinkedIn Growth for --- individuals or businesses?",
+          "answer": "Both. We help professionals (founders, marketers, job seekers) and companies (brands, startups, agencies) grow strategically on LinkedIn."
+        },
+        {
+          "question": "Will you manage our profile or just guide us?",
+          "answer": "We offer both: full execution (profile setup, content creation) or coaching and strategy if you prefer to post yourself."
+        },
+        {
+          "question": "Do I need to post every day to grow?",
+          "answer": "Not at all. Consistency beats volume. 2--3 posts per week with strategic interaction is enough to build visibility."
+        },
+        {
+          "question": "Can I work on LinkedIn Growth even if I don't like being visible?",
+          "answer": "Yes. We help you create content that feels natural and aligned with your voice --- not forced or performative."
+        },
+        {
+          "question": "Will LinkedIn Growth bring clients or job offers?",
+          "answer": "Absolutely. Many of our clients have landed contracts, jobs, or collaborations through their optimized presence --- if the strategy is consistent."
+        }
+      ]
+    }
+  }
+]

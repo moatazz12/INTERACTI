@@ -1,0 +1,260 @@
+{
+  "hero": {
+    "title": "AGENCE DE MARKETING DIGITAL",
+    "trafficLabel": "Trafic Mensuel",
+    "trafficValue": "220 342,76",
+    "trafficChange": "+3,4%",
+    "descriptionBefore": "Débloquez le plein potentiel de votre marque avec Interacti Marketing Agency — une agence de marketing digital qui conçoit des solutions stratégiques pour des résultats concrets.Nos services couvrent le",
+    "services": [
+      "Référencement naturel (SEO)",
+      "Marketing Digital",
+      "Design Créatif",
+      "Développement Web",
+      "Production de Contenu & Média",
+      "Conseil",
+      "Croissance Sur LinkedIn"
+    ],
+    "descriptionAfter": "— pour propulser votre activité dans l’univers numérique."
+  },
+  "about": {
+    "partnersTitle": "Nos Partenaires",
+    "partnersSubtitle": "Partenaires de confiance d’entreprises innovantes dans divers secteurs",
+    "subheading": "Propos",
+    "heading": "Pourquoi Choisir Interacti Marketing Agency comme Partenaire Digital ?",
+    "intro": "Chez Interacti Marketing Agency, nous accompagnons les marques ambitieuses avec des stratégies digitales à fort impact, conçues pour la croissance.",
+    "descriptionBefore": "De la stratégie à l’exécution, notre agence propose des solutions axées sur les résultats dans sept domaines clés :",
+    "services": [
+      "SEO",
+      "Marketing Digital",
+      "Design Créatif",
+      "Développement Web",
+      "Production de Contenu & Média",
+      "Conseil",
+      "Croissance Sur LinkedIn"
+    ],
+    "descriptionAfter": "Nous ne suivons pas simplement les tendances — nous les créons. Notre équipe d’experts vous aide à évoluer rapidement, à créer du lien avec votre audience, et à réussir dans un monde digital.",
+    "button": "À propos"
+  },
+  "services": {
+    "subtitle": "Nos Services",
+    "title": "Notre Expertise en Marketing Digital",
+    "cards": [
+      {
+        "title": "SEO Et Analyses",
+        "text": "Nous améliorons votre visibilité en ligne grâce à des stratégies SEO basées sur les données. Recherche de mots-clés, audits techniques, optimisation de contenu — tout pour mieux vous positionner et convertir.",
+        "image": "/SEO-home.png",
+        "number": "01",
+        "wide": true
+      },
+      {
+        "title": "Design Créatif",
+        "text": "Nous concevons des identités visuelles percutantes à travers le branding, le design UI/UX, le graphisme et l’animation. Votre message devient une expérience mémorable.",
+        "number": "02"
+      },
+      {
+        "title": "Marketing Digital",
+        "text": "Nous développons des stratégies digitales intégrées : SEO, publicité payante, réseaux sociaux, automation — pour générer des leads, engager votre audience, et faire croître votre activité.",
+        "number": "03"
+      },
+      {
+        "title": "Conception et Développement Web",
+        "text": "Nous créons des sites web performants, modernes et optimisés pour renforcer votre présence en ligne. Notre approche allie design sur mesure, navigation fluide, compatibilité mobile et SEO intégré dès la base. Offrez à votre marque une vitrine digitale qui convertit.",
+        "image": "/dev-home.png",
+        "number": "04",
+        "wide": true
+      }
+    ],
+    "button": "Afficher tous les services"
+  },
+  "seoSection": {
+  "subheading": "Votre visibilité, c’est votre avantage compétitif.",
+  "heading": "Services SEO d’Excellence par Interacti Marketing Agency",
+  "description": "Maximisez votre présence en ligne grâce à une stratégie SEO complète et sur mesure.Nous optimisons votre site pour les moteurs de recherche à travers l’audit technique, la recherche de mots-clés, l’optimisation du contenu, le netlinking et le suivi des performances.Arrêtez de perdre du temps avec des tâches manuelles. Laissez-nous automatiser et améliorer votre visibilité sur Google — durablement.",
+  "button": "commencer",
+  "imageAlt": "SEO Illustration"
+  },
+    "processSection": {
+    "subtitle": "Processus de Travail",
+    "title": "Notre Processus de Travail",
+    "intro": "Voici comment nous transformons vos idées en résultats mesurables, étape par étape.",
+    "steps": [
+      {
+        "number": 1,
+        "img": "/step1.webp",
+        "alt": "Choisissez un service icon",
+        "title": "Choisissez un service",
+        "desc": "Sélectionnez la solution adaptée à vos besoins parmi notre large gamme de services marketing, design, développement et stratégie digitale.",
+        "blob": true,
+        "nowrap": false
+      },
+      {
+        "number": 2,
+        "img": "/step2.webp",
+        "alt": "Définissez vos exigences icon",
+        "title": "Définissez vos exigences",
+        "desc": "Nous échangeons sur vos objectifs, contraintes et attentes pour bâtir une offre sur mesure.",
+        "blob": false,
+        "nowrap": false
+      },
+      {
+        "number": 3,
+        "img": "/step3.webp",
+        "alt": "Planifiez un rendez-vous icon",
+        "title": "Planifiez un rendez-vous",
+        "desc": "Nous organisons une rencontre (virtuelle ou physique) pour valider les détails et démarrer le projet.",
+        "blob": false,
+        "nowrap": true
+      },
+      {
+        "number": 4,
+        "img": "/step4.webp",
+        "alt": "Solution Finale icon",
+        "title": "Solution Finale",
+        "desc": "Vous recevez une solution clé en main, livrée dans les délais, avec un accompagnement personnalisé à chaque étape.",
+        "blob": false,
+        "nowrap": false
+      }
+    ],
+    "reviews": [
+      {
+        "icon": "ReviewIcon1",
+        "textLine1": "Approuvé par",
+        "textLine2": "25 000 entreprises"
+      },
+      {
+        "icon": "ReviewIcon2",
+        "textLine1": "Noté 4.9/5",
+        "textLine2": "Basé sur plus de 600 avis"
+      }
+    ]
+  },
+    "projectsection":{
+    "subtitle": "Nos projets",
+    "title": "Découvrez nos projets",
+    "projects": [
+    {
+      "id": 1,
+      "category": "Technologie",
+      "title": "Optimisation pour les moteurs de recherche",
+      "description": "Amélioration du référencement naturel et de la visibilité en ligne pour augmenter le trafic organique.",
+      "image": "/web.jpg",
+      "alt": "SEO optimization dashboard showing analytics"
+    },
+    {
+      "id": 2,
+      "category": "Design",
+      "title": "Interface utilisateur moderne",
+      "description": "Création d'interfaces intuitives et esthétiques pour une expérience utilisateur optimale.",
+      "image": "/media production.jpg",
+      "alt": "Modern UI design mockups on a tablet"
+    },
+    {
+      "id": 3,
+      "category": "Marketing",
+      "title": "Stratégie de contenu digital",
+      "description": "Développement de stratégies de contenu engageantes pour renforcer la présence digitale.",
+      "image": "/linkedin.jpg",
+      "alt": "Digital marketing team brainstorming"
+    },
+    {
+      "id": 4,
+      "category": "Développement",
+      "title": "Application web responsive",
+      "description": "Développement d'applications web modernes et adaptatives pour tous les appareils.",
+      "image": "/digitalmarketing.jpg",
+      "alt": "Responsive web application on multiple devices"
+    },
+    {
+      "id": 5,
+      "category": "SEO",
+      "title": "Audit et optimisation technique",
+      "description": "Analyse complète et optimisation technique pour améliorer les performances SEO.",
+      "image": "/seobanner.jpg",
+      "alt": "SEO audit report with performance metrics"
+    }
+  ]
+  },
+  "FeedbackSection": {
+    "subtitle": "Commentaires des clients",
+    "title": "Ce que disent nos clients à propos de nous",
+    "testimonials": [
+      {
+        "id": 1,
+        "rating": 5,
+        "text": "Je suis ravi du site web qu’Interacti Marketing Agency a développé pour mon entreprise ! Leur équipe a parfaitement compris notre vision et a créé un site magnifique et facile à utiliser, qui a largement dépassé nos attentes. Le processus s’est déroulé sans accroc, et le résultat final a considérablement renforcé notre présence en ligne. Je recommande vivement leurs services de développement web !",
+        "author": "Haitham",
+        "position": "PDG de Tembri",
+        "avatar": "/tembri.webp?height=40&width=40"
+      },
+      {
+        "id": 2,
+        "rating": 5,
+        "text": "quand un imprimeur inconnu a emporté une galée de caractères aawer avtndi ils les ont mélangés pour faire un type beaucoup mais aussi le saut dans",
+        "author": "Jerome Bell",
+        "position": "Directeur Marketing",
+        "avatar": "/placeholder.svg?height=40&width=40"
+      },
+      {
+        "id": 3,
+        "rating": 4,
+        "text": "quand un imprimeur inconnu a emporté une galée de caractères aawer avtndi ils les ont mélangés pour faire un type beaucoup mais aussi le saut dans",
+        "author": "Savannah Nguyen",
+        "position": "Chef de Projet",
+        "avatar": "/placeholder.svg?height=40&width=40"
+      },
+      {
+        "id": 4,
+        "rating": 5,
+        "text": "Service exceptionnel et équipe très professionnelle. Ils ont dépassé nos attentes et livré un travail de qualité supérieure.",
+        "author": "Robert Fox",
+        "position": "Entrepreneur",
+        "avatar": "/placeholder.svg?height=40&width=40"
+      },
+      {
+        "id": 5,
+        "rating": 5,
+        "text": "Innovation et créativité au rendez-vous. L'équipe a apporté des idées fraîches et originales qui ont fait la différence.",
+        "author": "Cody Fisher",
+        "position": "Designer",
+        "avatar": "/placeholder.svg?height=40&width=40"
+      }
+    ]
+  },
+  "newsBlog": {
+  "sectionTitle": "Dernières Actualités",
+  "sectionSubtitle": "Dernières Actualités & Blog",
+  "buttonLabel": "VOIR TOUTES LES ACTUALITÉS",
+  "featuredArticle": {
+    "id": 1,
+    "date": "20",
+    "month": "DÉC",
+    "category": "Technologie",
+    "title": "Protégez votre entreprise et assurez une haute disponibilité.",
+    "author": "Ralph Edwards",
+    "comments": 0,
+    "image": "/web.jpg?height=360&width=350"
+  },
+  "sideArticles": [
+    {
+      "id": 2,
+      "date": "20",
+      "month": "DÉC",
+      "category": "Technologie",
+      "title": "Qu’est-ce qui freine la solution informatique",
+      "author": "Ralph Edwards",
+      "comments": 0,
+      "image": "/seobanner.jpg?height=180&width=140"
+    },
+    {
+      "id": 3,
+      "date": "20",
+      "month": "DÉC",
+      "category": "Technologie",
+      "title": "Qu’est-ce qui freine la solution informatique",
+      "author": "Ralph Edwards",
+      "comments": 0,
+      "image": "/web.jpg?height=180&width=140"
+    }
+  ]
+}
+}

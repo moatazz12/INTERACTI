@@ -83,7 +83,7 @@ const DesktopServicesDropdown: FC<DesktopServicesDropdownProps> = ({ isOpen }) =
                 <ServiceLink
                   serviceTitle={service.title}
                 >
-                  <span className="flex items-center gap-2 font-bold text-[#00000] hover:text-[#FBD915] mb-2">
+                  <span className="flex items-center gap-2 font-bold text-[#00000] hover:text-[#FFD900] mb-2">
                     {service.icon}
                     {service.title}
                   </span>

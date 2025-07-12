@@ -1,0 +1,885 @@
+[
+  {
+    "slug": "seo",
+    "title": "SEO",
+    "image": "/seobanner.jpg",
+    "hero": {
+      "icon": "/icons/seo_hero.png",
+      "heading": "Agence de Référencement Naturel - SEO",
+      "subheading": "Gagnez en visibilité, dominez les résultats de recherche et développez votre présence digitale grâce aux stratégies SEO d’Interacti.",
+      "introParagraphs": [
+        "Chez Interacti Marketing Agency, le SEO ne se limite pas à grimper dans Google — il s'agit de construire une visibilité durable, une crédibilité forte et une croissance réelle.",
+        "Que vous soyez une entreprise locale en Tunisie ou une marque internationale, nos services SEO vous connectent à votre public cible au moment où il vous cherche.",
+        "Nous combinons expertise technique, stratégie de contenu et optimisation on-page pour vous aider à vous positionner — et y rester. Parce que la vraie croissance commence lorsqu’on vous trouve."
+      ]
+    },
+    "whatIs": {
+      "icon": "/icons/seoo.png",
+      "title": "Qu’est-ce que le Référencement Naturel (SEO) ?",
+      "descriptionParagraphs": [
+        "Le SEO, ou référencement naturel, désigne l’ensemble des techniques visant à améliorer la visibilité de votre site dans les résultats de recherche (Google, Bing, etc.).",
+        "L’objectif est d’apparaître au moment exact où votre audience recherche vos services ou produits — sans publicité payante.",
+        "Mais le SEO va bien au-delà des mots-clés ou des liens. C’est une stratégie digitale à long terme basée sur la pertinence, l’autorité et l’expérience utilisateur.De la structure technique de votre site à la vitesse de chargement, en passant par la création de contenu utile et l’obtention de liens de qualité — le SEO est le socle de toute croissance digitale durable.",
+        "Que votre objectif soit local ou international, investir dans le SEO, c’est construire une visibilité solide et pérenne."
+      ]
+    },
+    "offersTitle":"Ce que nous offrons en matière de SEO",
+    "offersIntro": "Chez Interacti, le SEO n’est pas une formule unique.Chaque stratégie est conçue en fonction de vos objectifs, votre secteur et votre audience — avec précision et impact mesurable. Nos services SEO couvrent l’ensemble du référencement naturel :",
+    "offers": [
+      {
+        "icon": "/icons/TechnicalSEOAudits.png",
+        "title": "Audit technique SEO",
+        "description": "Analyse de la structure du site, vitesse, indexation et accessibilité technique."
+      },
+      {
+        "icon": "/icons/keyword.png",
+        "title": "Recherche de mots-clés & stratégie",
+        "description": "Sélection intelligente de mots-clés basés sur l’intention de recherche et les objectifs commerciaux."
+      },
+      {
+        "icon": "/icons/on-page.png",
+        "title": "Optimisation on-page",
+        "description": "Titres, balises, hiérarchie des contenus, liens internes… tout est optimisé pour le référencement."
+      },
+      {
+        "icon": "/icons/contentseo.png",
+        "title": "Contenu SEO ",
+        "description": "Création de contenus utiles, optimisés et compatibles avec l’IA pour renforcer votre autorité."
+      },
+      {
+        "icon": "/icons/LinkBuilding.png",
+        "title": "SEO off-page & netlinking ",
+        "description": "Développement de backlinks de qualité et de citations locales."
+      },
+      {
+        "icon": "/icons/InternationalSEO.png",
+        "title": "SEO local & international ",
+        "description": "Visibilité ciblée, qu’elle soit locale ou à l’échelle mondiale."
+      },
+      {
+        "icon": "/icons/track.png",
+        "title": "Suivi de performance & reporting",
+        "description": "Tableaux de bord clairs, KPIs transparents et optimisations continues."
+      }
+    ],
+    "specializedServicesTitle": "Nos services SEO spécialisés",
+    "specializedServicesIntro": "Du référencement local au SEO à grande échelle, Interacti propose des solutions adaptées à chaque besoin métier. Voici ce que nous maîtrisons :",
+    "specializedServices": [
+      {
+        "icon": "/icons/locale.png",
+        "title": "SEO Local",
+        "description": "Idéal pour les commerces, cabinets, restaurants ou toute entreprise locale.",
+        "points": [
+          "Optimisation de votre fiche Google Business",
+          "Création de citations locales",
+          "Pages d’atterrissage géo-ciblées"
+        ]
+      },
+      {
+        "icon": "/icons/TechnicalSEO.png",
+        "title": "SEO Technique",
+        "description": "On corrige les fondations pour que les moteurs de recherche lisent et classent votre site facilement.",
+        "points": [
+          "Audit technique SEO complet",
+          "Amélioration de la vitesse et UX mobile",
+          "Résolution des erreurs d’indexation et de crawl"
+        ]
+      },
+      {
+        "icon": "/icons/eCommerceSEO.png",
+        "title": "SEO eCommerce",
+        "description": "Optimisez vos fiches produits pour attirer des acheteurs qualifiés.",
+        "points": [
+          "Titres et descriptions produits optimisés",
+          "Structure intelligente des pages catégories/filtrage",
+          "UX pensée pour réduire l’abandon panier"
+        ]
+      },
+      {
+        "icon": "/icons/EnterpriseSEO.png",
+        "title": "SEO Enterprise",
+        "description": "Stratégies SEO à grande échelle pour les grands sites ou réseaux multi-sites.",
+        "points": [
+          "Architecture SEO évolutive",
+          "Gestion multi-langues et multi-régions",
+          "Alignement SEO & marketing interne"
+        ]
+      },
+      {
+        "icon": "/icons/GEO.png",
+        "title": "GEO – SEO pour moteurs d’IA",
+        "description": "Apparaître dans Google AI, ChatGPT, Bing Copilot…",
+        "points": [
+          "Structuration de contenu pour l’intelligence artificielle",
+          "Implémentation de balisage Schema avancé",
+          "Optimisation pour les extraits enrichis et réponses directes"
+        ]
+      }
+    ],
+    "whyChoose": {
+      "title": "Pourquoi choisir Interacti pour votre stratégie SEO ?",
+      "intro": "De nombreuses agences proposent du SEO. Voici pourquoi nos clients choisissent Interacti :",
+      "points": [
+        {
+          "title": "Stratégies 100 % sur mesure",
+          "description": "Chaque plan est adapté à votre marché, votre audience et vos objectifs spécifiques."
+        },
+        {
+          "title": "Approche humaine et pilotée par la donnée",
+          "description": "Nos experts allient analyse, créativité et outils avancés — avec un seul objectif : la performance."
+        },
+        {
+          "title": "Expertise locale, rayonnement international",
+          "description": "Basés en Tunisie, nous accompagnons des marques dans le monde entier avec des stratégies multi-langues."
+        },
+        {
+          "title": "SEO prêt pour l’IA",
+          "description": "Nous optimisons vos contenus pour les moteurs de recherche traditionnels et pour les IA comme ChatGPT et Google AI."
+        },
+        {
+          "title": "Exécution complète",
+          "description": "Nous gérons l’ensemble du processus SEO — audit, optimisation, suivi et reporting."
+        }
+      ],
+      "footer": "Choisir Interacti Marketing Agency, c’est opter pour une croissance durable et mesurable."
+    },
+    "method": {
+      "title": "Notre méthode SEO éprouvée",
+      "intro": "Chez Interacti Marketing Agency, nous ne faisons pas du SEO au hasard.Nous suivons un processus structuré, rigoureux et orienté résultats. Voici comment nous procédons :",
+      "steps": [
+        {
+          "title": "Analyse & Audit",
+          "description": "Évaluation complète de votre site, de votre marché, de vos concurrents et des opportunités de recherche."
+        },
+        {
+          "title": "Stratégie sur mesure",
+          "description": "Élaboration d’une feuille de route SEO personnalisée selon vos objectifs et vos contraintes."
+        },
+        {
+          "title": "Optimisation on-page",
+          "description": "Révision du contenu, des balises, de l’arborescence et des liens internes pour un site Google-friendly et user-friendly."
+        },
+        {
+          "title": "Création & amélioration de contenu",
+          "description": "Développement de contenus optimisés pour le SEO, alignés avec votre image de marque."
+        },
+        {
+          "title": "SEO technique",
+          "description": "Correction des problèmes d’indexation, de vitesse, de compatibilité mobile et d’exploration."
+        },
+        {
+          "title": "Netlinking & SEO off-page",
+          "description": "Création de stratégies de liens entrants de qualité pour renforcer votre autorité."
+        },
+        {
+          "title": "Suivi & optimisation continue",
+          "description": "Analyse des KPIs, rapports mensuels clairs et ajustements permanents pour maximiser la performance."
+        }
+      ],
+      "footer": "Le SEO n’est pas une magie — c’est une méthode, une rigueur, et une stratégie continue. C’est notre engagement."
+    },
+    "faqsection":{
+    "title": "Questions fréquentes sur le SEO",    
+    "faqs": [
+      {
+        "question": "Combien de temps faut-il pour obtenir des résultats SEO ?",
+        "answer": "Le SEO est un investissement à long terme. Les premiers résultats apparaissent généralement en 3 à 6 mois. Tout dépend du niveau de concurrence, de votre site et de votre stratégie. Chez Interacti Marketing Agency, nous visons des résultats durables."
+      },
+      {
+        "question": "Quelle est la différence entre le SEO et les publicités payantes ?",
+        "answer": "Le SEO génère du trafic organique durable sans payer à chaque clic. Les publicités offrent de la visibilité immédiate mais disparaissent dès que vous arrêtez de payer. Une stratégie équilibrée entre les deux est idéale."
+      },
+      {
+        "question": "Le SEO est-il utile pour les petites entreprises ?",
+        "answer": "Oui, totalement. Le SEO local est l’un des leviers les plus puissants pour aider les TPE et PME à attirer des clients proches et à concurrencer les grands acteurs."
+      },
+      {
+        "question": "Le SEO est-il encore pertinent à l’ère de l’IA et de ChatGPT ?",
+        "answer": "Plus que jamais. Le SEO évolue. Aujourd’hui, il faut structurer les contenus pour les moteurs d’IA comme Google AI, Perplexity ou ChatGPT. Interacti est spécialisée en GEO — SEO nouvelle génération."
+      },
+      {
+        "question": "Que comprennent vos services SEO ?",
+        "answer": "Nos packs SEO incluent : audit technique, optimisation on-page, création de contenu, netlinking, SEO local, et optimisation IA. Chaque offre est personnalisée selon vos besoins."
+      }            
+    ]}
+  }, 
+  {
+  "slug": "digital-marketing",
+  "title": "Marketing Digital",
+  "image": "/digitalmarketing.jpg",
+  "hero": {
+    "icon": "/icons/marketing.png",
+    "heading": "Services de marketing digital",
+    "subheading": "Des stratégies multicanales conçues pour attirer, convertir et faire croître votre entreprise",
+    "introParagraphs": [
+      "Le marketing digital n'est plus un luxe — c'est le moteur central de toute stratégie de développement. Mais dans un environnement numérique saturé, il faut plus que des publications et des annonces : il faut de la stratégie, de la cohérence, et des résultats mesurables.",
+      "Chez Interacti Marketing Agency, nous aidons les startups, PME et grandes marques à structurer leur écosystème digital pour générer visibilité, prospects et chiffre d'affaires. Que ce soit pour une stratégie complète ou une activation ciblée, notre approche est orientée résultat.",
+      "On ne génère pas que du trafic. On crée de la croissance."
+    ]
+  },
+  "whatIs": {
+    "icon": "/icons/what-is.png",
+    "title": "Qu'est-ce que le marketing digital ?",
+    "descriptionParagraphs": [
+      "Le marketing digital regroupe l'ensemble des techniques utilisées pour atteindre vos clients en ligne, promouvoir vos offres, et générer des résultats concrets.",
+      "Il mobilise un mix d'actions comme :",
+      "• Création de contenu + SEO\n• Engagement sur les réseaux sociaux\n• Publicité en ligne (Google, Meta, LinkedIn...)\n• Funnels de conversion e-commerce\n• Automatisation marketing & CRM\n• Communication de marque & messages ciblés",
+      "Mais le vrai marketing digital ne se limite pas à des tactiques. C'est une expérience globale et cohérente sur tous les points de contact — où chaque interaction renforce la confiance et rapproche l'utilisateur d'une action concrète.",
+      "Bien fait, le marketing digital n'est pas juste un canal. C'est un moteur de croissance."
+    ]
+  },
+  "offersTitle": "Ce que nous offrons en marketing digital",
+  "offersIntro": "Chez Interacti Marketing Agency, nous proposons des services de marketing digital complets et intégrés — pensés pour générer des leads, renforcer votre notoriété et maximiser votre retour sur investissement.",
+  "offers": [
+    {
+      "icon": "/icons/content_marketing.png",
+      "title": "Content Marketing",
+      "description": "Rédaction de contenus optimisés : articles, guides, vidéos, infographies... pour attirer et convertir."
+    },
+    {
+      "icon": "/icons/social_media.png",
+      "title": "Social Media Marketing",
+      "description": "Animation, calendriers éditoriaux, campagnes sponsorisées sur Meta, LinkedIn, TikTok..."
+    },
+    {
+      "icon": "/icons/digital_ads.png",
+      "title": "Digital Advertising",
+      "description": "Création de campagnes publicitaires performantes (Google Ads, Meta Ads...) axées sur la conversion."
+    },
+    {
+      "icon": "/icons/ecommerce.png",
+      "title": "E-commerce Marketing",
+      "description": "Optimisation de fiches produits, tunnels de vente, campagnes panier abandonné..."
+    },
+    {
+      "icon": "/icons/automation.png",
+      "title": "Marketing Automation",
+      "description": "Scénarios d'e-mails automatisés, chatbots, nurturing, intégration CRM..."
+    },
+    {
+      "icon": "/icons/communication.png",
+      "title": "Marketing Communication",
+      "description": "Définition de la voix de marque, rédaction de messages percutants, cohérence omnicanale."
+    }
+  ],
+  "specializedServicesTitle": "Ce que comprend notre accompagnement en marketing digital",
+  "specializedServicesIntro": "Notre processus de marketing digital est conçu pour fournir des résultats tangibles dans tous les domaines clés de la croissance.",
+  "specializedServices": [
+    {
+      "icon": "/icons/content_strategy.png",
+      "title": "Stratégie de contenu & production éditoriale",
+      "description": "Une approche axée sur l'intention utilisateur, les besoins clients et le tunnel de conversion.",
+      "points": [
+        "Articles SEO, guides, vidéos, visuels...",
+        "Recyclage de contenu multi-format",
+        "Alignement contenu + objectifs commerciaux"
+      ]
+    },
+    {
+      "icon": "/icons/social_activation.png",
+      "title": "Stratégie réseaux sociaux & animation",
+      "description": "Une gestion complète de votre présence sociale, organique et sponsorisée.",
+      "points": [
+        "Stratégies par plateforme (LinkedIn, TikTok, Insta...)",
+        "Calendriers mensuels, contenus tendances, formats courts",
+        "Campagnes d'influence & sponsoring"
+      ]
+    },
+    {
+      "icon": "/icons/performance_ads.png",
+      "title": "Publicité digitale orientée performance",
+      "description": "Des campagnes publicitaires rentables et mesurables.",
+      "points": [
+        "Meta Ads (Facebook, Instagram)",
+        "Google Ads (Search, Display, YouTube...)",
+        "Tracking conversions, tests A/B"
+      ]
+    },
+    {
+      "icon": "/icons/ecom_optimize.png",
+      "title": "Optimisation marketing e-commerce",
+      "description": "Des parcours clients qui transforment les visiteurs en acheteurs.",
+      "points": [
+        "Funnels d'achat optimisés",
+        "Campagnes de relance panier abandonné",
+        "Promotions saisonnières & retargeting"
+      ]
+    },
+    {
+      "icon": "/icons/email_automation.png",
+      "title": "Automatisation & séquences email",
+      "description": "Des scénarios automatisés pour convertir sans effort manuel.",
+      "points": [
+        "Emails de bienvenue, nurturing, relance inactifs",
+        "Intégration CRM (Mailchimp, Brevo, HubSpot...)",
+        "Ciblage comportemental & segmentation"
+      ]
+    },
+    {
+      "icon": "/icons/messaging.png",
+      "title": "Communication marketing & messages de marque",
+      "description": "Faire en sorte que votre audience se souvienne et agisse.",
+      "points": [
+        "Définition de la voix de marque",
+        "Lignes éditoriales & messages clés",
+        "Rédaction web, emails, publicités, scripts"
+      ]
+    }
+  ],
+  "whyChoose": {
+    "title": "Pourquoi choisir Interacti pour votre marketing digital ?",
+    "intro":[ "Ce n'est pas d'un nouvel outil dont vous avez besoin. C'est d'un partenaire qui aligne stratégie, exécution et résultats.",
+    "Chez Interacti, nous construisons des écosystèmes digitaux cohérents et performants, pas juste des campagnes isolées.Voici pourquoi nos clients nous font confiance :"],
+    "points": [
+      {
+        "title": "Une équipe pluridisciplinaire",
+        "description": "Créateurs de contenu, acheteurs média, stratèges et analystes réunis."
+      },
+      {
+        "title": "Orientation résultats",
+        "description": "Pas de recettes toutes faites : des plans d'action clairs, mesurables, impactants."
+      },
+      {
+        "title": "Approche personnalisée",
+        "description": "Chaque campagne est conçue sur mesure, selon vos objectifs et votre public."
+      },
+      {
+        "title": "Expérience B2B & B2C",
+        "description": "Nous adaptons le ton, les formats et les tunnels selon votre secteur."
+      },
+      {
+        "title": "Agilité stratégique",
+        "description": "On s'adapte vite, on teste, on apprend, on ajuste — selon vos performances réelles."
+      }
+    ],
+    "footer": "Moins de bruit. Plus de stratégie. C'est notre promesse digitale."
+  },
+  "method": {
+    "title": "Notre méthode de marketing digital",
+    "intro": "Nous suivons une méthode agile et éprouvée, adaptée à votre secteur, budget et objectifs — avec des résultats mesurables à chaque étape.",
+    "steps": [
+      {
+        "title": "Brief stratégique & objectifs",
+        "description": "Compréhension de votre entreprise, vos cibles, vos indicateurs de performance.",
+        "points": [
+          "Audit de votre présence digitale",
+          "Benchmark concurrentiel",
+          "Définition claire des objectifs (trafic, leads, ventes...)"
+        ]        
+      },
+      {
+        "title": "Stratégie & planification des canaux",
+        "description": "Conception d'une stratégie personnalisée selon votre audience et votre budget",
+        "points": [
+          "Content, social media, pub, automation…",
+          "Mapping du parcours client",
+          "Plan mensuel ou trimestriel"
+        ]       
+      },
+      {
+        "title": "Création & déploiement des campagnes",
+        "description": "Réalisation des contenus et paramétrage des campagnes",
+        "points": [
+          "Textes, visuels, vidéos, publicités",
+          "Optimisation des landing pages",
+          "Tests A/B"
+        ]        
+      },
+      {
+        "title": "Activation & suivi quotidien",
+        "description": "Lancement et surveillance en temps réel.",
+        "points": [
+          "Réaffectation des budgets",
+          "Alertes de performance",
+          "Ajustement des audiences"
+        ]      
+      },
+      {
+        "title": "Reporting & optimisation continue",
+        "description": "Mesure des performances et itérations constantes., points stratégiques réguliers et scaling des meilleures actions pour maximiser le ROI.",
+        "points": [
+          "Tableaux de bord hebdo/mensuels",
+          "Points stratégiques réguliers",
+          "Tests + scaling des meilleures actions"
+      ]      
+      }
+    ],
+    "footer": "La réussite digitale n'est pas un hasard. C'est un système. On le crée et on le pilote pour vous."
+  },
+  "faqsection": {
+    "title": "Questions fréquentes sur le marketing digital",
+    "faqs": [
+      {
+        "question": "Qu'est-ce que le marketing digital ?",
+        "answer": "Le marketing digital regroupe l'ensemble des canaux en ligne (SEO, réseaux sociaux, emailing, web...) pour promouvoir une marque, attirer des prospects et générer des résultats mesurables."
+      },
+      {
+        "question": "Que fait un spécialiste du marketing digital ?",
+        "answer": "Il planifie, exécute et optimise des campagnes sur les plateformes numériques : référencement, contenu, publicité, emailing, analytics... avec un objectif clair de performance."
+      },
+      {
+        "question": "Mon entreprise peut-elle vraiment bénéficier du marketing digital ?",
+        "answer": "Oui, quel que soit votre secteur. Le marketing digital vous aide à gagner en visibilité, générer des leads, améliorer les ventes, et fidéliser — le tout avec des données traçables."
+      },
+      {
+        "question": "Le marketing digital est-il plus rentable que le marketing traditionnel ?",
+        "answer": "Souvent, oui. Il permet un ciblage précis, une optimisation en temps réel et un suivi ROI clair — avec des budgets flexibles et des résultats mesurables."
+      },
+      {
+        "question": "Comment reconnaître une bonne agence de marketing digital ?",
+        "answer": "Résultats prouvés, transparence des données, stratégies sur-mesure, maîtrise multicanale... et surtout : une équipe alignée avec vos objectifs, pas juste votre budget."
+      }
+    ]
+  }
+},
+{
+  "slug": "web-design-development",
+  "title": "Conception & Développement Web",
+  "image": "/web.jpg",
+  "hero": {
+    "icon": "/icons/webdesign.png",
+    "heading": "Services de Conception & Développement Web",
+    "subheading": "Nous concevons. Nous développons. Vous évoluez.",
+    "introParagraphs": [
+      "Un bon site web doit aller bien au-delà de l’apparence.",
+      "Il doit refléter votre marque, guider l’utilisateur, s’adapter à tous les supports — et surtout, convertir.",
+      "Chez Interacti Marketing Agency, nous combinons design UX/UI, développement personnalisé, intégration CMS et optimisation des performances.",
+      "Un site bien conçu attire. Un site bien pensé transforme."
+    ]
+  },
+  "whatIs": {
+    "icon": "/icons/whatis.png",
+    "title": "Qu'est-ce que la Conception & le Développement Web ?",
+    "descriptionParagraphs": [
+      "La conception et le développement web consistent à créer une plateforme digitale performante , évolutive et alignée avec votre marque .",
+      "• Le design web gère la structure, l’ergonomie, l’esthétique et l’expérience utilisateur.",
+      "• Le développement web transforme le design en solution technique fonctionnelle et sécurisée.",
+      "Ensemble, ils garantissent  :\n• Des fonctionnalités sur-mesure\n• Une navigation fluide, mobile-first\n• Un site rapide, optimisé SEO\n• Un back-office simple à gérer",
+      "Le design séduit. Le développement fidélise."
+    ]
+  },
+  "offersTitle": "Ce que nous offrons en Conception & Développement Web",
+  "offersIntro": "Chez Interacti Marketing Agency, nous proposons des solutions web complètes — du design UX à l’architecture technique — adaptées à votre activité. \nVoici nos services :",
+  "offers": [
+    {
+      "icon": "/icons/custom_design.png",
+      "title": "Conception de Sites Sur-Mesure",
+      "description": "Interfaces uniques, pensées pour l’utilisateur et alignées à votre identité de marque."
+    },
+    {
+      "icon": "/icons/wordpress.png",
+      "title": "Sites WordPress personnalisés",
+      "description": "Sites flexibles, optimisés SEO, simples à administrer, avec thème et plugins sur-mesure."
+    },
+    {
+      "icon": "/icons/webdev.png",
+      "title": "Développement Web",
+      "description": "Sites web et applications performants, sécurisés, développés avec les meilleures technologies."
+    },
+    {
+      "icon": "/icons/appdev.png",
+      "title": "Développement d'Applications",
+      "description": "Applications mobiles natives ou hybrides, centrées sur l’expérience et la rapidité."
+    },
+    {
+      "icon": "/icons/softwaredev.png",
+      "title": "Développement Logiciel",
+      "description": "Outils métier, plateformes SaaS ou ERP personnalisés pour automatiser votre activité."
+    },
+    {
+      "icon": "/icons/database.png",
+      "title": "Développement de Bases de Données",
+      "description": "Structures de données robustes pour centraliser, gérer et sécuriser vos informations."
+    }
+  ],
+  "specializedServicesTitle": "Ce que comprend notre service Web Design & Development",
+  "specializedServicesIntro": "",
+  "specializedServices": [
+    {
+      "icon": "/icons/custom_design.png",
+      "title": "Conception de Sites Sur-Mesure",
+      "description": "Designs uniques pensés pour vos cibles et votre positionnement.",
+      "points": [
+        "UI/UX personnalisée",
+        "Wireframes et maquettes interactives",
+        "Intégration de votre charte graphique"
+      ]
+    },
+    {
+      "icon": "/icons/wordpress.png",
+      "title": "Conception de Sites WordPress",
+      "description": "Sites 100% personnalisés sur WordPress, faciles à gérer et à référencer.",
+      "points": [
+        "Thèmes WordPress personnalisés",
+        "Intégration Gutenberg ou Elementor",
+        "Structure SEO-ready"
+      ]
+    },
+    {
+      "icon": "/icons/webdev.png",
+      "title": "Développement Web",
+      "description": "Réalisation technique performante, responsive et sécurisée.",
+      "points": [
+        "HTML, CSS, JS, React, Next.js",
+        "CMS headless (WordPress, Strapi…)",
+        "Intégration d'API et modules sur mesure"
+      ]
+    },
+    {
+      "icon": "/icons/appdev.png",
+      "title": "Développement d'Applications",
+      "description": "Conception et développement d'apps mobiles fluides et intuitives.",
+      "points": [
+        "UI/UX mobile-first",
+        "Développement Flutter, React Native",
+        "Mise en ligne sur stores et tests"
+      ]
+    },
+    {
+      "icon": "/icons/softwaredev.png",
+      "title": "Développement Logiciel",
+      "description": "Solutions logicielles sur-mesure pour automatiser vos flux métier.",
+      "points": [
+        "Plateformes SaaS ",
+        "ERP, CRM, outils internes",
+        "Suivi agile & support technique"
+      ]
+    },
+    {
+      "icon": "/icons/database.png",
+      "title": "Développement de Bases de Données",
+      "description": "Structuration, sécurisation et automatisation de vos données.",
+      "points": [
+        "Bases relationnelles / NoSQL",
+        "MySQL, PostgreSQL, MongoDB",
+        "Sauvegardes & automatisations"
+      ]
+    }
+  ],
+  "whyChoose": {
+    "title": "Pourquoi choisir Interacti pour votre site web ?",
+    "intro": "Chez Interacti Marketing Agency, on ne se contente pas de créer des sites — on conçoit des leviers de croissance.Voici pourquoi nos clients nous choisissent :",
+    "points": [
+      {
+        "title": "Design et dev réunis",
+        "description": "Une collaboration fluide entre designers et développeurs pour un rendu cohérent et rapide."
+      },
+      {
+        "title": "Performance & SEO intégrés",
+        "description": "Nos sites sont rapides, responsives, sécurisés et pensés pour le référencement naturel."
+      },
+      {
+        "title": "Sur-mesure, pas de template",
+        "description": "Chaque projet est unique, adapté à vos besoins réels."
+      },
+      {
+        "title": "Maîtrise CMS & développement natif",
+        "description": "WordPress, CMS headless, ou dev 100% code — on s’adapte à votre stack."
+      },
+      {
+        "title": "Sites multilingues & multiculturels",
+        "description": "Nos sites sont optimisés pour une audience FR / EN / AR, avec une UX pensée globalement."
+      }
+    ],
+    "footer": "Un site web, c’est plus qu’une vitrine. C’est votre moteur digital."
+  },
+"method": {
+  "title": "Notre Processus de Conception & Développement Web",
+  "intro": "Notre processus allie design thinking, expertise technique et stratégie SEO pour garantir l'utilisabilité, l'évolutivité et le succès à long terme.",
+  "steps": [
+    {
+      "title": "Découverte & Planification",
+      "description": "Analyse de vos besoins, de vos cibles et de vos objectifs techniques.",
+      "points": [
+        "Entretiens projet",
+        "Architecture du site",
+        "Analyse concurrentielle & SEO"
+      ]
+    },
+    {
+      "title": "Design UX/UI",
+      "description": "Conception de maquettes visuelles et ergonomiques, centrées utilisateur.",
+      "points": [
+        "Wireframes & prototypes",
+        "Maquettes design sur-mesure",
+        "Responsive & mobile-first"
+      ]
+    },
+    {
+      "title": "Développement & Intégration",
+      "description": "Développement technique complet selon la solution retenue.",
+      "points": [
+        "HTML, CSS, JS, React / Next.js",
+        "WordPress ou CMS headless",
+        "Connexions API & outils tiers"
+      ]
+    },
+    {
+      "title": "Tests & Assurance Qualité",
+      "description": "Vérification complète avant mise en ligne.",
+      "points": [
+        "Tests navigateurs et devices",
+        "Optimisation des temps de chargement",
+        "QA responsive"
+      ]
+    },
+    {
+      "title": "Mise en ligne & Déploiement",
+      "description": "Lancement sécurisé et configuration complète.",
+      "points": [
+        "Migration staging > production",
+        "Outils analytics & SEO",
+        "SSL, cache, CDN"
+      ]
+    },
+    {
+      "title": "Suivi & Évolutivité",
+      "description": "Support continu, maintenance et ajout de fonctionnalités.",
+      "points": [
+        "Forfaits de maintenance",
+        "Mises à jour techniques",
+        "Ajouts fonctionnels à la demande"
+      ]
+    }
+  ],
+  "footer": "Nous ne finissons pas votre site web — nous l'avenir-projetons."
+},
+  "faqsection":{
+  "title": "Questions fréquentes sur la création de site web",
+  "faqs": [
+    {
+      "question": "Combien de temps faut-il pour concevoir et développer un site web ?",
+      "answer": "Cela dépend de la portée, mais la plupart des sites prennent entre 3 et 8 semaines, de la conception au lancement."
+    },
+    {
+      "question": "Pouvez-vous refaire mon site actuel ?",
+      "answer": "Oui. Nous proposons des refontes complètes pour améliorer le design, la performance, la marque et le SEO."
+    },
+    {
+      "question": "Dois-je savoir coder pour gérer mon site ?",
+      "answer": "Non. Nous construisons des sites avec des CMS conviviaux comme WordPress pour vous permettre de mettre à jour facilement le contenu sans coder."
+    },
+    {
+      "question": "Mon site sera-t-il mobile-friendly et optimisé SEO ?",
+      "answer": "Absolument. Tous nos sites sont pensés pour le mobile-first, rapides et construits selon les meilleures pratiques SEO."
+    },
+    {
+      "question": "Fournissez-vous l'hébergement et la maintenance ?",
+      "answer": "Oui. Nous proposons des solutions d'hébergement sécurisé et des plans de maintenance mensuels pour garantir que votre site reste à jour et protégé."
+    }
+  ]
+}
+},
+{
+    "slug": "creative-design",
+    "title": "Design Créatif",
+    "image": "/creative-design.jpg",
+    "hero": {
+      "icon": "/icons/design.png",
+      "heading": "Design Créatif",
+      "subheading": "Une identité visuelle qui attire et inspire confiance",
+      "introParagraphs": [
+        "Le design, ce n'est pas juste du \"joli\". C'est un langage.",
+        "C'est ce que les gens perçoivent, ressentent, et retiennent de vous.",
+        "Chez Interacti Marketing Agency, nous concevons des visuels qui racontent votre histoire, valorisent votre image et servent vos objectifs.",
+        "Un bon design crée l'émotion. Un design intelligent déclenche l'action."
+      ]
+    },
+    "whatIs": {
+      "icon": "/icons/whatisdesign.png",
+      "title": "Qu'est-ce que le design créatif ?",
+      "descriptionParagraphs": [
+        "Le design créatif, c'est l'alliance entre l'émotion visuelle et l'intention stratégique.",
+        "Il ne s'agit pas seulement de créer du \"beau\" --- mais de :",
+        "• Vous démarquer dans un univers concurrentiel\n• Exprimer votre personnalité de marque en images\n• Fluidifier l'expérience utilisateur\n• Servir vos objectifs marketing et commerciaux",
+        "Logo, charte graphique, site web, motion design... tout est conçu pour créer du lien, de l'impact, de la mémorisation.",
+        "Un bon design ne se contente pas d'être vu. Il est ressenti. Il agit."
+      ]
+    },
+    "offersTitle": "Ce que nous offrons en design créatif",
+    "offersIntro": "Chez Interacti Marketing Agency, chaque création est pensée pour faire sens. On ne \"fait pas joli\" --- on conçoit du design qui parle, engage et transforme.",
+    "offers": [
+      {
+        "icon": "/icons/branding.png",
+        "title": "Branding & identité visuelle",
+        "description": "Logos, chartes graphiques, palettes de couleurs, éléments de marque... pour refléter votre ADN."
+      },
+      {
+        "icon": "/icons/uiux.png",
+        "title": "Design UI/UX",
+        "description": "Interfaces web & mobile fluides, esthétiques et centrées sur l'utilisateur."
+      },
+      {
+        "icon": "/icons/graphic.png",
+        "title": "Design graphique",
+        "description": "Visuels pour réseaux sociaux, print, présentations, flyers... toujours impactants et alignés."
+      },
+      {
+        "icon": "/icons/motion.png",
+        "title": "Motion & design 3D",
+        "description": "Animations, vidéos explicatives, rendus 3D... pour faire vibrer votre univers."
+      }
+    ],
+    "specializedServicesTitle": "Ce que comprend notre service de design créatif",
+    "specializedServicesIntro": "",
+    "specializedServices": [
+      {
+        "icon": "/icons/branding.png",
+        "title": "Branding",
+        "description": "Nous concevons votre identité visuelle pour exprimer votre singularité.",
+        "points": [
+          "Création de logos & monogrammes",
+          "Palette de couleurs & typographies",
+          "Charte graphique & assets visuels",
+          "Design narratif de marque"
+        ]
+      },
+      {
+        "icon": "/icons/uiux.png",
+        "title": "Design UI/UX",
+        "description": "Des interfaces intuitives et esthétiques, pensées pour une navigation fluide.",
+        "points": [
+          "Wireframes & parcours utilisateur",
+          "Design desktop & mobile",
+          "Prototypes interactifs",
+          "Mise en page orientée conversion"
+        ]
+      },
+      {
+        "icon": "/icons/graphic.png",
+        "title": "Design graphique",
+        "description": "Des visuels percutants pour renforcer votre communication au quotidien.",
+        "points": [
+          "Créations pour réseaux sociaux",
+          "Présentations, documents pro",
+          "Flyers, brochures, affiches",
+          "Design packaging & événementiel"
+        ]
+      },
+      {
+        "icon": "/icons/motion.png",
+        "title": "Motion design & 3D",
+        "description": "On donne du mouvement à votre image --- pour capter et convaincre.",
+        "points": [
+          "Animations de logo & intros vidéos",
+          "Vidéos explicatives & reels",
+          "Rendus 3D de produits",
+          "Transitions & publicités animées"
+        ]
+      }
+    ],
+    "whyChoose": {
+      "title": "Pourquoi choisir Interacti pour votre design créatif ?",
+      "intro": "Le design sans stratégie, c'est juste de la déco. Chez Interacti Marketing Agency, chaque visuel a un sens --- au service de votre marque, de vos objectifs et de vos utilisateurs.",
+      "points": [
+        {
+          "title": "Un design qui agit, pas juste qui séduit",
+          "description": "Esthétique + efficacité = impact mesurable."
+        },
+        {
+          "title": "Équipe créative pluridisciplinaire",
+          "description": "Branding, UI, motion, print... tout est réuni chez nous."
+        },
+        {
+          "title": "Approche UX centrée utilisateur",
+          "description": "On pense navigation, lisibilité et conversion."
+        },
+        {
+          "title": "Création bilingue (FR/EN)",
+          "description": "Messages et visuels adaptés à chaque audience."
+        },
+        {
+          "title": "Cohérence visuelle multicanal",
+          "description": "Vos supports restent alignés, partout : web, social, print, pub..."
+        }
+      ],
+      "footer": "Le design, c'est la première impression de votre marque. Et chez nous, elle est inoubliable."
+    },
+      "method": {
+      "title": "Notre processus de design créatif",
+      "intro": "Nous suivons une méthode agile et éprouvée, adaptée à votre secteur, budget et objectifs — avec des résultats mesurables à chaque étape.",
+      "steps": [
+        {
+          "title": "Découverte & cadrage",
+          "description": "On cerne vos besoins, votre audience et votre univers visuel.",
+          "points": [
+            "Séances de briefing créatif",
+            "Audit de marque & benchmarks",
+            "Définition des objectifs design"
+          ]
+        },
+        {
+          "title": "Conception & direction artistique",
+          "description": "On propose des pistes visuelles: moodboards, esquisses, premières idées.",
+          "points": [
+            "Exploration stylistique",
+            "Couleurs, typographies, symbolique",
+            "Présentation des concepts"
+          ]
+        },
+        {
+          "title": "Production graphique",
+          "description": "On transforme les idées en créations finales prêtes à être utilisées.",
+          "points": [
+            "Fichiers haute définition",
+            "Versions desktop, mobile, print",
+            "Allers-retours et feedback client"
+          ]
+        },
+        {
+          "title": "Animation & interactivité (optionnel)",
+          "description": "Nous animons vos visuels si nécessaire pour plus de dynamisme.",
+          "points": [
+            "Motion design, animation de logo",
+            "Effets UI (hover, scroll...)",
+            "Vidéos explicatives ou promotionnelles"
+          ]
+        },
+        {
+          "title": "Livraison & documentation",
+          "description": "Remise des fichiers finaux + guidelines pour un usage cohérent.",
+          "points": [
+            "Exports web, print, vidéo",
+            "Documentation des éléments",
+            "Guide d'usage de la marque"
+          ]
+        },
+        {
+          "title": "Suivi créatif continu",
+          "description": "On vous accompagne au-delà du projet initial.",
+          "points": [
+            "Packs de création mensuels",
+            "Variantes pour campagnes",
+            "Adaptations multicanales"
+          ]
+        }
+      ],
+      "footer": "La réussite digitale n'est pas un hasard. C'est un système. On le crée et on le pilote pour vous."
+    },
+    "faqsection": {
+      "title": "Questions fréquentes sur le design créatif",
+      "faqs": [
+        {
+          "question": "Quelle est la différence entre branding et design graphique ?",
+          "answer": "Le branding définit votre identité visuelle. Le design graphique l'applique à vos supports : print, web, social, etc."
+        },
+        {
+          "question": "Proposez-vous des refontes de marque ?",
+          "answer": "Oui. On peut repenser votre logo, votre charte ou moderniser votre image existante."
+        },
+        {
+          "question": "Fournissez-vous les fichiers sources et les guides ?",
+          "answer": "Toujours. Vous recevez les fichiers modifiables (AI, PSD, Figma...) et un guide d'utilisation."
+        },
+        {
+          "question": "Réalisez-vous des créations bilingues ou multilingues ?",
+          "answer": "Oui. On conçoit en FR / EN / AR, avec un souci du détail culturel et typographique."
+        },
+        {
+          "question": "Proposez-vous un accompagnement créatif régulier ?",
+          "answer": "Absolument. Forfaits mensuels, créations à la demande, campagnes ponctuelles... c'est vous qui décidez."
+        }
+      ]
+    }
+  }
+]

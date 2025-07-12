@@ -21,7 +21,7 @@ const NavBar: FC<NavBarProps> = ({ activeUnderline }) => {
   const dropdownRef = useRef<HTMLDivElement>(null);
   const locale = useCurrentLocale();
   const navItems = [
-    { label: 'Home', href: '/' },
+    { label: 'Home', href: `/${locale}/home` },
     { label: 'Services', href: '#' },
     { label: 'Projects', href: '/projects' },
     { label: 'Blog', href: '/blog' },
@@ -52,11 +52,11 @@ const NavBar: FC<NavBarProps> = ({ activeUnderline }) => {
       <div className="flex-shrink-0 flex items-center h-full">
         <Link href="/">
           <Image
-            src="/logo.png"
+            src="/logo-gold.webp"
             alt="Logo"
             width={180}
             height={90}
-            className="object-contain max-h-16 md:max-h-20 lg:max-h-24 w-auto"
+            className="object-contain max-h-26 md:max-h-30 lg:max-h-36 w-auto"
             priority
           />
         </Link>
@@ -71,7 +71,7 @@ const NavBar: FC<NavBarProps> = ({ activeUnderline }) => {
                 <>
                   <button
                     onClick={() => setServicesDropdown(!servicesDropdown)}
-                    className="flex items-center gap-1 hover:text-[#FBD915] px-5"
+                    className="flex items-center gap-1 hover:text-[#FFD900] px-5"
                     aria-haspopup="true"
                     aria-expanded={servicesDropdown}
                   >
@@ -86,7 +86,7 @@ const NavBar: FC<NavBarProps> = ({ activeUnderline }) => {
 
                 </>
               ) : (
-                <Link href={item.href} className="transition-colors duration-200 hover:text-[#FBD915] px-3">
+                <Link href={item.href} className="transition-colors duration-200 hover:text-[#FFD900] px-3">
                   {item.label}
                   {activeUnderline === item.label && (
                     <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 -top-6.5 lg:-top-9.5 xl:-top-9.5 2xl:-top-9.5 w-14 h-2 rounded-full bg-white z-10" />
@@ -103,7 +103,7 @@ const NavBar: FC<NavBarProps> = ({ activeUnderline }) => {
         <LanguageSwitcher />
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="lg:hidden text-[#FBD915] focus:outline-none z-50"
+          className="lg:hidden text-[#FFD900] focus:outline-none z-50"
           aria-label="Toggle navigation menu"
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -126,7 +126,7 @@ const NavBar: FC<NavBarProps> = ({ activeUnderline }) => {
                   <>
                     <button
                       onClick={() => setMobileServiceDropdown(!mobileServiceDropdown)}
-                      className="py-2 px-4 w-full text-[#301f50] hover:text-[#FBD915] font-semibold"
+                      className="py-2 px-4 w-full text-[#330052] hover:text-[#FFD900] font-semibold"
                       aria-expanded={mobileServiceDropdown}
                       aria-controls="mobile-services-sublist"
                     >
@@ -152,7 +152,7 @@ const NavBar: FC<NavBarProps> = ({ activeUnderline }) => {
                   <Link
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className="py-2 px-4 text-[#301f50] hover:text-[#FBD915] w-full block"
+                    className="py-2 px-4 text-[#330052] hover:text-[#FFD900] w-full block"
                   >
                     {item.label}
                   </Link>
@@ -164,6 +164,7 @@ const NavBar: FC<NavBarProps> = ({ activeUnderline }) => {
       </AnimatePresence>
     </header> 
   );
+  
 };
 
 export default NavBar;

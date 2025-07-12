@@ -38,9 +38,9 @@ export default function ContactForm({ dict }: Props) {
   };
 
   return (
-    <div className="mt-6 p-[2px] rounded-xl bg-gradient-to-b from-[#301f50] to-[#FBD915] shadow-md">
+    <div className="mt-6 p-[2px] rounded-xl bg-gradient-to-b from-[#330052] to-[#FFD900] shadow-md">
       <div className="bg-white rounded-xl p-6">
-        <h3 className="text-[#301f50] font-bold mb-4">{dict.formTitle}</h3>
+        <h3 className="text-[#330052] font-bold mb-4">{dict.formTitle}</h3>
         <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
           <input
             type="text"
@@ -94,9 +94,9 @@ type Props = {
 
 export default function ContactForm({ dict }: Props) {
   return (
-    <div className="mt-6 p-[2px] rounded-xl bg-gradient-to-b from-[#301f50] to-[#FBD915] shadow-md">
+    <div className="mt-6 p-[2px] rounded-xl bg-gradient-to-b from-[#330052] to-[#FFD900] shadow-md">
       <div className="bg-white rounded-xl p-6">
-        <h3 className="text-[#301f50] font-bold mb-4">{dict.formTitle}</h3>
+        <h3 className="text-[#330052] font-bold mb-4">{dict.formTitle}</h3>
         <form className="flex flex-col gap-4">
           <input type="text" placeholder={dict.namePlaceholder} className="form-input" />
           <input type="email" placeholder={dict.emailPlaceholder} className="form-input" />

@@ -1,0 +1,138 @@
+.section {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 1rem 5rem;
+  }
+}
+
+.circleTopLeft {
+  position: absolute;
+  top: 2.5rem;
+  left: 1.5rem;
+  width: 5rem;
+  height: 5rem;
+  border: 2px dashed #c9c9d9;
+  border-radius: 9999px;
+  z-index: 0;
+}
+
+.circleTopRight {
+  position: absolute;
+  top: 5rem;
+  right: 2.5rem;
+  width: 3.75rem;
+  height: 3.75rem;
+  border: 2px dashed #c9c9d9;
+  border-radius: 9999px;
+  z-index: 0;
+}
+
+.bottomDecoration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90px;
+  z-index: 0;
+}
+
+.mainContent {
+  position: relative;
+  z-index: 10;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  .mainContent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.textColumn {
+  flex: 1;
+}
+
+.subheading {
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: linear-gradient(to bottom, #330052, #FFD900);
+  background-clip: text;              /* ✅ Standard */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #330052;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+}
+
+.intro {
+  font-size: 1rem;
+  color: #6b6b6b;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+  max-width: 52rem;
+  line-height: 1.75;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #330052;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #ffd900;
+  color: #330052;
+}
+
+.buttonIcon {
+  background-color: white;
+  color: #330052;
+  border-radius: 9999px;
+  padding: 0.25rem;
+}
+
+.imageColumn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 400px;
+  height: auto;
+}

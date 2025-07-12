@@ -21,10 +21,10 @@ const WhoWeAreSection: React.FC<WhoWeAreSectionProps> = ({ dict }) => {
       </div>
 
       {/* Décorations Box */}
-      <div className="absolute w-24 h-2 md:w-[180px] md:h-8 top-8 md:top-15 left-0 rounded-[10px] md:rounded-[20px] rotate-[-18deg] blur-[0.25px] bg-gradient-to-r from-[#301f50] to-[#fbd915] opacity-20 z-0" />
-      <div className="absolute w-3 h-16 md:w-[19px] md:h-[120px] bottom-8 left-12 md:bottom-12 md:left-18 rounded-lg rotate-[12deg] blur-[0.25px] bg-gradient-to-b from-[#301f50] to-[#fbd915] opacity-20 z-0" />
-      <div className="absolute w-20 h-2 md:w-[160px] md:h-10 bottom-6 right-0 md:bottom-10 rounded-[10px] md:rounded-[20px] rotate-[24deg] blur-[0.25px] bg-gradient-to-r from-[#301f50] to-[#fbd915] opacity-20 z-0" />
-      <div className="absolute w-3 h-16 md:w-[19px] md:h-[115px] top-4 right-6 md:top-6 md:right-10 rounded-lg rotate-[-8deg] blur-[0.25px] bg-gradient-to-b from-[#301f50] to-[#fbd915] opacity-20 z-0" />
+      <div className="absolute w-24 h-2 md:w-[180px] md:h-8 top-8 md:top-15 left-0 rounded-[10px] md:rounded-[20px] rotate-[-18deg] blur-[0.25px] bg-gradient-to-r from-[#330052] to-[#FFD900] opacity-20 z-0" />
+      <div className="absolute w-3 h-16 md:w-[19px] md:h-[120px] bottom-8 left-12 md:bottom-12 md:left-18 rounded-lg rotate-[12deg] blur-[0.25px] bg-gradient-to-b from-[#330052] to-[#FFD900] opacity-20 z-0" />
+      <div className="absolute w-20 h-2 md:w-[160px] md:h-10 bottom-6 right-0 md:bottom-10 rounded-[10px] md:rounded-[20px] rotate-[24deg] blur-[0.25px] bg-gradient-to-r from-[#330052] to-[#FFD900] opacity-20 z-0" />
+      <div className="absolute w-3 h-16 md:w-[19px] md:h-[115px] top-4 right-6 md:top-6 md:right-10 rounded-lg rotate-[-8deg] blur-[0.25px] bg-gradient-to-b from-[#330052] to-[#FFD900] opacity-20 z-0" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
         <header className="text-center mb-12 md:mb-20 lg:mb-30">

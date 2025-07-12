@@ -7,9 +7,17 @@ import { i18n } from '@/lib/i18n';
 
 type Props = {
   isMobile?: boolean;
+  borderColor?: string;
+  labelColor?: string;
+  switcherStyle?: string; // 👈 nouvelle variable pour le style complet du switcher
 };
 
-export default function LanguageSwitcher({ isMobile = false }: Props) {
+export default function LanguageSwitcher({
+  isMobile = false,
+  borderColor,
+  labelColor,
+  switcherStyle,
+}: Props) {
   const [open, setOpen] = useState(false);
   const router = useRouter();
   const path = usePathname().split('/');
@@ -27,13 +35,18 @@ export default function LanguageSwitcher({ isMobile = false }: Props) {
     setOpen(false);
   };
 
+  const defaultLabelColor = isMobile ? 'text-[#330052]' : 'text-white';
+  const finalLabelColor = labelColor || defaultLabelColor;
+
+  // ✅ Valeur par défaut du style switcher (comme les icônes sociales)
+  const defaultSwitcherStyle = 'border border-[#330052] bg-transparent rounded-full px-3 py-1.5';
+  const finalSwitcherStyle = switcherStyle || defaultSwitcherStyle;
+
   return (
     <div className={`relative ${isMobile ? 'w-full px-4 py-2 mt-4' : ' top-0'} z-50`}>
       <button
         onClick={() => setOpen(!open)}
-        className={`w-full flex items-center justify-between gap-2 border border-transparent bg-transparent ${
-          isMobile ? 'text-[#301F50]' : 'text-white'
-        } px-2 py-1 rounded-md hover:text-[#FBD915] transition duration-150 text-sm`}
+        className={`w-full flex items-center justify-between gap-2 ${finalSwitcherStyle} ${finalLabelColor} hover:text-[#FFD900] transition duration-150 text-sm`}
       >
         <div className="flex items-center gap-2">
           <img src={flagUrl} alt="flag" width={20} height={15} className="rounded-sm" />
@@ -65,7 +78,7 @@ export default function LanguageSwitcher({ isMobile = false }: Props) {
               <li
                 key={loc}
                 onClick={() => changeLanguage(loc)}
-                className="flex items-center gap-2 px-4 py-2 hover:bg-[#fbd91518] cursor-pointer text-sm text-[#301F50]"
+                className="flex items-center gap-2 px-4 py-2 hover:bg-[#ffd900] cursor-pointer text-sm text-[#330052]"
               >
                 <img
                   src={loc === 'fr' ? 'https://flagcdn.com/fr.svg' : 'https://flagcdn.com/gb-eng.svg'}
