@@ -1,8 +1,16 @@
-'use client';
+'use client'; 
 
-import { motion, Variants } from 'framer-motion';
-import { FC } from 'react'; 
+import { FC, memo } from 'react';
+import { motion,Variants } from 'framer-motion';
 import ServiceLink from './ServiceLink';
+
+type Props = {
+  icon: React.ReactNode;
+  title: string;
+  services: string[];
+  locale: string;
+  hideTitle?: boolean;
+};
 
 const listVariants: Variants = {
   hidden: { opacity: 0, x: -20 },
@@ -17,29 +25,22 @@ const listVariants: Variants = {
   }),
 };
 
-type ServiceBlockProps = {
-  icon: React.ReactNode;
-  title: string;
-  services: string[];
-  hideTitle?: boolean;
-};
-
-const ServiceBlock: FC<ServiceBlockProps> = ({ icon, title, services, hideTitle = false }) => (
+const ServiceBlock: FC<Props> = ({ icon, title, services, locale, hideTitle = false }) => (
   <div>
-     {!hideTitle && (
+    {!hideTitle && (
       <h4 className="flex items-center gap-2 font-bold text-[#301f50] text-sm uppercase mb-4">
         {icon} {title}
       </h4>
     )}
-    
     <motion.ul initial="hidden" animate="visible">
       {services.map((service, i) => (
-        <motion.li key={i} custom={i} variants={listVariants}>
-          <ServiceLink serviceTitle={title} subServiceName={service} />
+        <motion.li key={service} custom={i} variants={listVariants}>
+          <ServiceLink serviceTitle={title} subServiceName={service} locale={locale} />
         </motion.li>
       ))}
     </motion.ul>
   </div>
 );
 
-export default ServiceBlock;
+// ✅ memo pour éviter les re-render inutiles
+export default memo(ServiceBlock);

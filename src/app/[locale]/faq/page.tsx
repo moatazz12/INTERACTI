@@ -1,7 +1,6 @@
 import { getDict } from '@/lib/dictionaries';
 import { Locale } from '@/lib/i18n';
-import FAQPageUI from './FAQPageUI';  
-import { FAQDict } from '@/lib/dictionaries';  
+import FAQPageWrapper from './FAQPageWrapper';
 
 interface FAQPageProps {
   params: {
@@ -10,8 +9,12 @@ interface FAQPageProps {
 }
 
 export default async function FAQPage({ params }: FAQPageProps) {
-  const { locale } = await params;   
-  const dict = await getDict(locale, 'faq');   
+  const { locale } = await params;
 
-   return <FAQPageUI dict={dict as FAQDict} />;
+  const [dict, footerDict] = await Promise.all([
+    getDict(locale, 'faq'),
+    getDict(locale, 'footer'),
+  ]);
+
+  return <FAQPageWrapper dict={dict} footerDict={footerDict} locale={locale} />;
 }

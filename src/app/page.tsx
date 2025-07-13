@@ -101,3 +101,16 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+export function generateViewport() {
+  return {
+    width: 'device-width',
+    initialScale: 1,
+  };
+}
+
+export function generateThemeColor() {
+  return '#330058';
+}

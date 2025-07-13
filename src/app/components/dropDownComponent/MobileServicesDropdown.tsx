@@ -3,7 +3,6 @@
 import { FC, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Globe, TrendingUp, Code, Palette, Users, Camera } from 'lucide-react';
-import Link from 'next/link';
 import ServiceBlock from '../ServiceBlock';
 import ServiceLink from '../ServiceLink';
 
@@ -80,79 +79,69 @@ const servicesData = [
 
 type MobileServicesDropdownProps = {
   isOpen: boolean;
+  locale: string;
 };
 
-const MobileServicesDropdown: FC<MobileServicesDropdownProps> = ({ isOpen }) => {
-  const [activeSubServiceIndex, setActiveSubServiceIndex] = useState<number | null>(null);
+const MobileServicesDropdown: FC<MobileServicesDropdownProps> = ({ isOpen, locale }) => {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  if (!isOpen) return null;
 
   return (
     <AnimatePresence>
-      {isOpen && (
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -10 }}
-          transition={{ duration: 0.3, ease: 'easeOut' }}
-          className="w-full bg-gray-50 px-4 pb-4 lg:hidden"
-        >
-          {servicesData.map((service, i) => (
-            <div key={i} className="mb-3 text-left">
-              {/* Ligne du service principal */}
-              <div className="flex items-center justify-between">
-                {/* Nom du service cliquable */}
+      <motion.div
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -10 }}
+        transition={{ duration: 0.3, ease: 'easeOut' }}
+        className="w-full bg-gray-50 px-4 pb-4 lg:hidden"
+      >
+        {servicesData.map(({ title, icon, list }, i) => (
+          <div key={title} className="mb-3 text-left">
+            <div className="flex items-center justify-between">
+              <ServiceLink serviceTitle={title} locale={locale}>
                 <span className="flex items-center gap-2 font-semibold text-[#301f50]">
-                  <ServiceLink serviceTitle={service.title}>
-                    <span className="flex items-center gap-2">
-                      {service.icon} {service.title}
-                    </span>
-                  </ServiceLink>
+                  {icon} {title}
                 </span>
+              </ServiceLink>
 
-                 <button
-                  className="ml-2"
-                  onClick={() =>
-                    setActiveSubServiceIndex(activeSubServiceIndex === i ? null : i)
-                  }
-                  aria-label="Afficher les sous-services"
+              <button
+                className="ml-2"
+                onClick={() => setActiveIndex(activeIndex === i ? null : i)}
+                aria-label="Afficher les sous-services"
+              >
+                <svg
+                  className={`w-5 h-5 transform transition-transform duration-200 ${
+                    activeIndex === i ? 'rotate-90' : 'rotate-0'
+                  }`}
+                  fill="none"
+                  stroke="#301F50"
+                  strokeWidth="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className={`w-5 h-5 transform transition-transform duration-200 ${
-                      activeSubServiceIndex === i ? 'rotate-90' : 'rotate-0'
-                    }`}
-                    fill="none"
-                    stroke="#301F50"
-                    strokeWidth="1.5"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </button>
-              </div>
-
-               <AnimatePresence>
-                {activeSubServiceIndex === i && (
-                  <motion.div
-                    key="serviceblock"
-                    initial={{ opacity: 0, y: -5 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -5 }}
-                    transition={{ duration: 0.3, ease: 'easeOut' }}
-                    className="pl-4 pt-2"
-                  >
-                    <ServiceBlock
-                      icon={service.icon}
-                      title={service.title}
-                      services={service.list}
-                      hideTitle={true} 
-                    />
-                  </motion.div>
-                )}
-              </AnimatePresence>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
             </div>
-          ))}
-        </motion.div>
-      )}
+
+            <AnimatePresence>
+              {activeIndex === i && (
+                <motion.div
+                  key="serviceblock"
+                  initial={{ opacity: 0, y: -5 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -5 }}
+                  transition={{ duration: 0.3, ease: 'easeOut' }}
+                  className="pl-4 pt-2"
+                >
+                  <ServiceBlock icon={icon} title={title} locale={locale} services={list} hideTitle />
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+        ))}
+      </motion.div>
     </AnimatePresence>
   );
 };

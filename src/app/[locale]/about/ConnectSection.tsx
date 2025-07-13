@@ -32,7 +32,7 @@ const ConnectSection: React.FC<ConnectSectionProps> = ({ dict }) => {
       href: dict.socialMedia.twitter.url,
       label: dict.socialMedia.twitter.title,
       Icon: FaXTwitter,
-      bg: "linear-gradient(135deg, #232526 0%, #000000 100%)",
+      bg: "linear-gradient(135deg, #232526 0%,rgb(255, 255, 255) 100%)",
       title: dict.socialMedia.twitter.title,
       subtitle: dict.socialMedia.twitter.subtitle,
       type: 'X',
@@ -60,29 +60,32 @@ const ConnectSection: React.FC<ConnectSectionProps> = ({ dict }) => {
   return (
     <section className={`${styles.connectSection} overflow-hidden`} aria-labelledby="connect-heading">
       <div className="max-w-6xl w-full flex flex-col md:flex-row gap-10 md:gap-16 items-center justify-between md:px-0">
-        {/* Left: Text Content */}
+        {/* Partie gauche : titre & texte */}
         <div className="flex-1 flex flex-col text-center md:text-left mb-8 md:mb-0 relative items-center md:items-start">
-          <div className="absolute -left-4 md:-left-6 -top-4 md:-top-3 w-12 h-12 rounded-[25%] z-0"
+          <div
+            className="absolute -left-4 md:-left-6 -top-4 md:-top-3 w-12 h-12 rounded-[25%] z-0"
             style={{
               background: 'linear-gradient(135deg, #330052 0%, #ffd900 100%)',
               opacity: 0.18,
-              pointerEvents: 'none'
+              pointerEvents: 'none',
             }}
           />
-          <h2 id="connect-heading" className="relative z-10 text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent"
-            style={{ backgroundImage: 'linear-gradient(90deg, #330052 0%, #ffd900 100%)' }}>
+          <h2
+            id="connect-heading"
+            className="relative z-10 text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent"
+            style={{ backgroundImage: 'linear-gradient(90deg, #330052 0%, #ffd900 100%)' }}
+          >
             {dict.title}
           </h2>
-          <p className="text-lg text-gray-700 max-w-xl mx-auto md:mx-0 relative z-10">
-            {dict.description}
-          </p>
+          <p className="text-lg text-gray-700 max-w-xl mx-auto md:mx-0 relative z-10">{dict.description}</p>
         </div>
 
-        {/* Right: Social Media Cards */}
+        {/* Partie droite : cartes réseaux sociaux */}
         <div className="grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-6 w-full max-w-md mx-auto">
           {socialLinks.map(({ href, label, Icon, bg, title, subtitle, type }) => {
             let brandColor = '#000';
             let cardHoverClass = '';
+
             switch (type) {
               case 'LinkedIn':
                 brandColor = '#0077B5';
@@ -120,7 +123,7 @@ const ConnectSection: React.FC<ConnectSectionProps> = ({ dict }) => {
                       style={{ background: bg }}
                     >
                       <Icon
-                        className={`w-6 h-6 md:w-8 md:h-8 object-contain block text-white transition-all duration-300 group-hover:text-[${brandColor}]`}
+                        className="w-6 h-6 md:w-8 md:h-8 text-white transition-all duration-300 group-hover:text-black"
                         aria-hidden="true"
                       />
                     </span>

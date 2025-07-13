@@ -1,4 +1,5 @@
 // src/lib/dictionaries.ts
+import { cache } from 'react';
 
 // Définir le type Dict spécifique à chaque module
 export type ContactDict = {
@@ -167,6 +168,6 @@ const dictFiles: Record<Locale, Record<string, () => Promise<any>>> = {
   },
 };
 
-export async function getDict(locale: Locale, module: string): Promise<any> {
+export const getDict = cache(async (locale: Locale, module: string): Promise<any> => {
   return dictFiles[locale]?.[module]?.() ?? dictFiles.en.contact();
-}
+});

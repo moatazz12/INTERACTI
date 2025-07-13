@@ -1,8 +1,6 @@
-'use client';
-
-import Link from 'next/link';
+ import Link from 'next/link';
 import Image from 'next/image';
-import NavBar from '@/app/components/NavBar';
+import NavBar from '@/app/components/navBar/NavBar';
 
 export default function NotFound() {
   return (
@@ -12,7 +10,7 @@ export default function NotFound() {
         <div className="absolute inset-0 bg-[#4a3b5f] clip-right" />
       </div>
       <div className="relative z-30">
-        {/* <NavBar dict={dict} /> */}
+        <NavBar  />
       </div>
 
        <div className="relative z-10 flex flex-col md:flex-row items-center md:items-start justify-start md:justify-evenly h-full w-full px-4 pt-10 md:pt-24 gap-10 text-center md:text-center">

@@ -1,24 +1,49 @@
 'use client';
-
-import { AboutDict } from '@/lib/dictionaries';
-import NavBar from '@/app/components/NavBar';
-import Footer from '@/app/components/Footer';
+import dynamic from 'next/dynamic';
+import LazyHydrateOnScroll from '@/app/components/LazyHydrateOnScroll';
+import NavBar from '@/app/components/navBar/NavBar';
 import Breadcrumb from '@/app/components/Breadcrumb';
-
 import WhoWeAreSection from './WhoWeAreSection';
-import AboutSection from './AboutSection';
-import WhyChooseSection from './WhyChooseSection';
-import StatsSection from './StatsSection';
-import CoreValuesSection from './CoreValuesSection';
-import ConnectSection from './ConnectSection';
+import type { AboutDict , FooterDict  } from '@/lib/dictionaries';
 
-interface AboutPageUIProps {
+import Footer from '@/app/components/Footer';
+
+const AboutSection = dynamic(() => import('./AboutSection'), {
+  ssr: false,  
+  loading: () => <div>Chargement de la section...</div>,  
+});
+
+const WhyChooseSection = dynamic(() => import('./WhyChooseSection'), {
+  ssr: false,  
+  loading: () => <div>Chargement de la section...</div>,  
+});
+
+const StatsSection = dynamic(() => import('./StatsSection'), {
+  ssr: false,  
+  loading: () => <div>Chargement de la section...</div>,  
+});
+
+const CoreValuesSection = dynamic(() => import('./CoreValuesSection'), {
+  ssr: false,  
+  loading: () => <div>Chargement de la section...</div>,  
+});
+
+const ConnectSection = dynamic(() => import('./ConnectSection'), {
+  ssr: false,  
+  loading: () => <div>Chargement de la section...</div>,  
+});
+ 
+
+export default function AboutPageUI({
+  dict,
+  locale,
+  footerDict,
+}: {
   dict: AboutDict;
-}
-
-export default function AboutPageUI({ dict }: AboutPageUIProps) {
+  locale: string;
+  footerDict: FooterDict;
+}) {
   const about = dict.about;
-
   return (
     <>
       <section className="min-h-[35vh] bg-[#301F50] text-white font-sans">
@@ -30,15 +55,31 @@ export default function AboutPageUI({ dict }: AboutPageUIProps) {
       </section>
 
       <WhoWeAreSection dict={about} />
-      <AboutSection dict={about.aboutSection} /> 
-      <WhyChooseSection dict={about.whyChoose} />
-      <StatsSection dict={about.stats} />  
-      <CoreValuesSection dict={about.coreValues} />   
-      <ConnectSection dict={about.connect} />    
-      
 
-      <section className="w-full" style={{ height: '50px' }} aria-hidden="true"></section>
-      <Footer />
+      <LazyHydrateOnScroll>
+        <AboutSection dict={about.aboutSection} />
+      </LazyHydrateOnScroll>
+
+      <LazyHydrateOnScroll>
+        <WhyChooseSection dict={about.whyChoose} />
+      </LazyHydrateOnScroll>
+
+      <LazyHydrateOnScroll>
+        <StatsSection dict={about.stats} />
+      </LazyHydrateOnScroll>
+
+      <LazyHydrateOnScroll>
+        <CoreValuesSection dict={about.coreValues} />
+      </LazyHydrateOnScroll>
+
+      <LazyHydrateOnScroll>
+        <ConnectSection dict={about.connect} />
+      </LazyHydrateOnScroll>
+
+       <LazyHydrateOnScroll>
+        <Footer dict={footerDict} locale={locale} />
+      </LazyHydrateOnScroll>
+
     </>
   );
 }

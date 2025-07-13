@@ -1,10 +1,7 @@
-//L9DIM
-'use client';
-
-import React from 'react';
+import React, { memo } from 'react';
 import styles from './WhyChooseSection.module.css';
-import type { AboutDict } from '@/lib/dictionaries';  
- 
+import type { AboutDict } from '@/lib/dictionaries';
+
 type WhyChooseDict = AboutDict['about']['whyChoose'];
 
 const icons = [
@@ -30,17 +27,17 @@ const icons = [
 
 const WhyChooseSection: React.FC<{ dict: WhyChooseDict }> = ({ dict }) => {
   return (
-    <section className={`w-full bg-white py-4 px-4 flex flex-col items-center justify-center relative ${styles.whyChooseSection}`}>
-      {/* Décorations */}
+    <section className={`w-full bg-white py-8 px-4 flex flex-col items-center justify-center relative ${styles.whyChooseSection}`}>
+      {/* Décorations non bloquantes */}
       <div className="hidden md:block absolute top-16 left-8 w-28 h-20 bg-gradient-to-br from-[#330052] to-[#ffd900] rounded-tr-[48px] rounded-bl-[48px] opacity-20 z-0"></div>
-      <div className="hidden md:block absolute bottom-22 right-8 w-28 h-20 bg-gradient-to-br from-[#ffd900] to-[#330052] rounded-tr-[48px] rounded-bl-[48px] opacity-25 z-0"></div>
+      <div className="hidden md:block absolute bottom-20 right-8 w-28 h-20 bg-gradient-to-br from-[#ffd900] to-[#330052] rounded-tr-[48px] rounded-bl-[48px] opacity-25 z-0"></div>
 
-      {/* Header */}
-      <div className="max-w-3xl w-full mx-auto text-center mb-8">
-        <h2 className={`text-[48px] font-bold text-[#330052] leading-tight mb-4 text-center ${styles.mobileH2}`}>
+      {/* En-tête */}
+      <div className="max-w-3xl w-full mx-auto text-center mb-10">
+        <h2 className={`text-[32px] md:text-[48px] font-bold text-[#330052] leading-tight mb-4 ${styles.mobileH2}`}>
           {dict.title}
         </h2>
-        <span className="block mx-auto mb-4 h-1 w-20 rounded-full bg-[#ffd900] opacity-80"></span>
+        <div className="mx-auto mb-4 h-1 w-20 rounded-full bg-[#ffd900] opacity-80"></div>
         <h3 className={`text-lg md:text-xl font-semibold text-[#330052] mt-2 mb-2 tracking-tight ${styles.mobileH3}`}>
           {dict.subtitle}
         </h3>
@@ -50,14 +47,15 @@ const WhyChooseSection: React.FC<{ dict: WhyChooseDict }> = ({ dict }) => {
       </div>
 
       {/* Cartes */}
-      <div className={`grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl mx-auto z-10 items-stretch ${styles.mobileGrid}`}>
+      <div className={`grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl mx-auto z-10 items-stretch ${styles.mobileGrid}`}>
         {dict.reasons.map((reason, index) => (
           <div
             key={index}
-            className={`flex flex-col items-center bg-white rounded-tr-[48px] rounded-bl-[48px] border p-8 shadow-md transition-transform duration-700 ease-[cubic-bezier(.22,1,.36,1)] will-change-transform hover:scale-105 hover:-translate-y-2 hover:rotate-2 hover:shadow-lg h-full
+            className={`
+              flex flex-col items-center bg-white rounded-tr-[48px] rounded-bl-[48px] border p-6 shadow-sm transition-transform duration-300
+              ease-out will-change-transform hover:scale-[1.02]
               ${styles.mobileCard}
               ${index % 2 === 0 ? 'border-[#330052] hover:border-[#330052]' : 'border-[#ffe066] hover:border-[#ffd900]'}
-              ${index % 2 === 0 ? 'md:-translate-y-6' : ''}
             `}
           >
             <span className="flex items-center justify-center w-14 h-14 rounded-full mb-4 bg-white border shadow-sm border-[#330052]">
@@ -72,4 +70,4 @@ const WhyChooseSection: React.FC<{ dict: WhyChooseDict }> = ({ dict }) => {
   );
 };
 
-export default WhyChooseSection;
+export default memo(WhyChooseSection);

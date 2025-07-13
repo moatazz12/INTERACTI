@@ -1,17 +1,16 @@
 import { getDict } from '@/lib/dictionaries';
-import { Locale } from '@/lib/i18n';
 import AboutPageUI from './AboutPageUI';
-import { AboutDict } from '@/lib/dictionaries';
+import { Locale } from '@/lib/i18n';
+import type { AboutDict, FooterDict } from '@/lib/dictionaries';
 
-interface AboutPageProps {
-  params: {
-    locale: Locale;
-  };
-}
+export default async function AboutPage({ params }: { params: { locale: Locale } }) {
+  const { locale } = await params;
 
-export default async function AboutPage({ params }: AboutPageProps) {
- const { locale } = await params; 
-   const dict = await getDict(locale, 'about');  
+  const [aboutDict, footerDict] = await Promise.all([
+    getDict(locale, 'about'),
+    getDict(locale, 'footer'),
+  ]);
 
-   return <AboutPageUI dict={dict as AboutDict} />;
+  return <
+    AboutPageUI dict={aboutDict as AboutDict} footerDict={footerDict as FooterDict} locale={locale} />;
 }

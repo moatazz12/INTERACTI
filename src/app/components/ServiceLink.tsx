@@ -1,37 +1,32 @@
 import Link from 'next/link';
-import { FC } from 'react';
-import useCurrentLocale from '../../../hooks/useCurrentLocale';
 
-type ServiceLinkProps = {
+type Props = {
   serviceTitle: string;
   subServiceName?: string;
+  locale: string;
   children?: React.ReactNode;
   className?: string;
-
 };
 
-const ServiceLink: FC<ServiceLinkProps> = ({ 
-    serviceTitle, 
-    subServiceName = "" ,
-    children ,
-    className = "block text-sm text-[#4a3b5f] hover:text-[#FBD915] transition-colors duration-200" 
-
-}) => {
-  const locale = useCurrentLocale();
+export default function ServiceLink({
+  serviceTitle,
+  subServiceName = '',
+  locale,
+  children,
+  className = 'text-sm text-[#4a3b5f] hover:text-[#FBD915] transition-colors duration-200',
+}: Props) {
   const serviceSlug = encodeURIComponent(serviceTitle.toLowerCase().replace(/\s+/g, '-'));
   const subServiceSlug = subServiceName
-        ? encodeURIComponent(subServiceName.toLowerCase().replace(/\s+/g, '-'))
-        : "";
-    const href = subServiceName
-  ? `/${locale}/services/${serviceSlug}/${subServiceSlug}`
-  : `/${locale}/services/${serviceSlug}`;
+    ? encodeURIComponent(subServiceName.toLowerCase().replace(/\s+/g, '-'))
+    : '';
 
-return (
+  const href = subServiceName
+    ? `/${locale}/services/${serviceSlug}/${subServiceSlug}`
+    : `/${locale}/services/${serviceSlug}`;
+
+  return (
     <Link href={href} className={className}>
-    {children || subServiceName || serviceTitle}
-  </Link>
-);
-
-};
-
-export default ServiceLink;
+      {children || subServiceName || serviceTitle}
+    </Link>
+  );
+}
