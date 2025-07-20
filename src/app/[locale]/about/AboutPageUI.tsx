@@ -5,7 +5,6 @@ import NavBar from '@/app/components/navBar/NavBar';
 import Breadcrumb from '@/app/components/Breadcrumb';
 import WhoWeAreSection from './WhoWeAreSection';
 import type { AboutDict , FooterDict  } from '@/lib/dictionaries';
-
 import Footer from '@/app/components/Footer';
 
 const AboutSection = dynamic(() => import('./AboutSection'), {
@@ -46,11 +45,11 @@ export default function AboutPageUI({
   const about = dict.about;
   return (
     <>
-      <section className="min-h-[35vh] bg-[#301F50] text-white font-sans">
+      <section className="min-h-[35vh] bg-[#330052] text-white font-sans">
         <NavBar activeUnderline={about.hero.activeUnderlineTitle} />
         <div className="flex flex-col items-center justify-center text-center py-10 md:py-3 px-4">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">{about.hero.title}</h1>
-          <Breadcrumb homeLabel={about.hero.breadcrumbHome} currentLabel={about.hero.breadcrumbAbout} />
+          <Breadcrumb homeLabel={about.hero.breadcrumbHome} currentLabel={about.hero.breadcrumbAbout} locale= {locale} />
         </div>
       </section>
 

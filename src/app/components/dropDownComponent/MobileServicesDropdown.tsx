@@ -100,7 +100,7 @@ const MobileServicesDropdown: FC<MobileServicesDropdownProps> = ({ isOpen, local
           <div key={title} className="mb-3 text-left">
             <div className="flex items-center justify-between">
               <ServiceLink serviceTitle={title} locale={locale}>
-                <span className="flex items-center gap-2 font-semibold text-[#301f50]">
+                <span className="flex items-center gap-2 font-semibold text-[#330052]">
                   {icon} {title}
                 </span>
               </ServiceLink>
@@ -115,7 +115,7 @@ const MobileServicesDropdown: FC<MobileServicesDropdownProps> = ({ isOpen, local
                     activeIndex === i ? 'rotate-90' : 'rotate-0'
                   }`}
                   fill="none"
-                  stroke="#301F50"
+                  stroke="#330052"
                   strokeWidth="1.5"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"

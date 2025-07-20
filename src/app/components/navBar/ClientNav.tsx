@@ -24,7 +24,7 @@ const ClientNav = ({ activeUnderline }: Props) => {
   const locale = useCurrentLocale();
 
   const navItems = useMemo(() => [
-    { label: 'Home', href: '/' },
+    { label: 'Home', href: `/${locale}/home` },
     { label: 'Services', href: '#' },
     { label: 'Projects', href: '/projects' },
     { label: 'Blog', href: '/blog' },
@@ -55,22 +55,25 @@ const ClientNav = ({ activeUnderline }: Props) => {
               {label === 'Services' ? (
                 <>
                   <button
-                    onClick={() => setServicesDropdown(prev => !prev)}
-                    className="flex items-center gap-1 hover:text-[#FBD915] px-5"
+                    onClick={() => setServicesDropdown(!servicesDropdown)}
+                    className="flex items-center gap-1 hover:text-[#FFD900] px-5"
                     aria-haspopup="true"
                     aria-expanded={servicesDropdown}
                   >
                     {label}
+                    {activeUnderline === label && (
+                          <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 -top-6.5 lg:-top-9.5 xl:-top-9.5 2xl:-top-9.5 w-14 h-2 rounded-full bg-white z-10" />
+                        )}
                   </button>
                   <div ref={dropdownRef}>
                     <DesktopServicesDropdown isOpen={servicesDropdown} locale={locale} />
                   </div>
                 </>
               ) : (
-                <Link href={href} className="hover:text-[#FBD915] px-3">
+                <Link href={href} className="flex items-center gap-1 hover:text-[#FFD900] px-5">
                   {label}
                   {activeUnderline === label && (
-                    <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 -top-9.5 w-14 h-2 rounded-full bg-white z-10" />
+                          <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 -top-6.5 lg:-top-9.5 xl:-top-9.5 2xl:-top-9.5 w-14 h-2 rounded-full bg-white z-10" />
                   )}
                 </Link>
               )}
@@ -84,7 +87,7 @@ const ClientNav = ({ activeUnderline }: Props) => {
         <LanguageSwitcher />
         <button
           onClick={() => setIsOpen(prev => !prev)}
-          className="lg:hidden text-[#FBD915] z-50"
+          className="lg:hidden text-[#FFD900] z-50"
           aria-label="Toggle Menu"
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -106,8 +109,8 @@ const ClientNav = ({ activeUnderline }: Props) => {
                 {label === 'Services' ? (
                   <>
                     <button
-                      onClick={() => setMobileServiceDropdown(prev => !prev)}
-                      className="py-2 px-4 w-full text-[#301f50] hover:text-[#FBD915] font-semibold"
+                      onClick={() => setMobileServiceDropdown(!mobileServiceDropdown)}
+                      className="py-2 px-4 w-full text-[#330052] hover:text-[#FFD900] font-semibold"
                       aria-expanded={mobileServiceDropdown}
                       aria-controls="mobile-services-sublist"
                     >
@@ -132,7 +135,7 @@ const ClientNav = ({ activeUnderline }: Props) => {
                   <Link
                     href={href}
                     onClick={() => setIsOpen(false)}
-                    className="py-2 px-4 text-[#301f50] hover:text-[#FBD915] w-full block"
+                    className="py-2 px-4 text-[#330052] hover:text-[#FFD900] w-full block"
                   >
                     {label}
                   </Link>
@@ -144,6 +147,7 @@ const ClientNav = ({ activeUnderline }: Props) => {
       </AnimatePresence>
     </>
   );
+  
 };
 
 export default ClientNav;

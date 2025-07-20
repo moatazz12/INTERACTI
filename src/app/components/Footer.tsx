@@ -46,23 +46,23 @@ const Footer = ({ dict, locale }: FooterProps) => {
   );
 
   return (
-    <footer className="bg-[#301f50] text-white px-6 py-10 sm:px-10 lg:px-32">
+    <footer className="bg-[#330052] text-white px-6 py-10 sm:px-10 lg:px-32">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Présentation */}
         <div>
           <Image
-            src="/logo.png"
+            src="/logo-gold.webp"
             alt="Logo"
             width={144}
             height={40}
-            className="mb-4"
+            className="w-40 h-auto mb-0"
             loading="lazy"
           />
           <p className="text-[#d9d9d9] text-sm">{dict.description}</p>
           <Link
             href={localizePath('/contact')}
             prefetch={false}
-            className="inline-block mt-4 bg-gradient-to-r from-[#301f50] to-[#fbd915] text-white rounded-full px-6 py-2 hover:opacity-90"
+            className="inline-block mt-4 bg-gradient-to-r from-[#330052] to-[#FFD900] text-white rounded-full px-6 py-2 hover:opacity-90"
           >
             {dict.contactUs}
           </Link>

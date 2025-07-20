@@ -15,9 +15,14 @@ export default function ServiceLink({
   children,
   className = 'text-sm text-[#4a3b5f] hover:text-[#FBD915] transition-colors duration-200',
 }: Props) {
-  const serviceSlug = encodeURIComponent(serviceTitle.toLowerCase().replace(/\s+/g, '-'));
+  const serviceSlug = encodeURIComponent(serviceTitle.toLowerCase()
+    .replace(/&/g, '')
+    .replace(/\s+/g, '-'));
+    
   const subServiceSlug = subServiceName
-    ? encodeURIComponent(subServiceName.toLowerCase().replace(/\s+/g, '-'))
+    ? encodeURIComponent(subServiceName.toLowerCase()
+        .replace(/&/g, '')
+    .replace(/\s+/g, '-'))
     : '';
 
   const href = subServiceName

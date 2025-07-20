@@ -71,7 +71,7 @@ a, button, .transition {
   z-index: -1;
   border-radius: 20px;
   padding: 2px;
-  background: linear-gradient(90deg, #6F47BB, #FBD915);
+  background: linear-gradient(90deg, #6F47BB, #FFD900);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -82,7 +82,7 @@ a, button, .transition {
 }
 
 .btn-submit {
-  @apply px-8 py-3 rounded-full bg-[#fbd9151a] border border-[#fbd915] text-[#301f50] font-bold;
+  @apply px-8 py-3 rounded-full bg-[#FFD9001a] border border-[#FFD900] text-[#330052] font-bold;
 }
 
 
@@ -98,4 +98,25 @@ a, button, .transition {
 .clip-left {
   clip-path: polygon(0 0, 140% 0, 0 100%);
   z-index: 1;
+}
+
+
+
+/* Breakpoint personnalisé pour 1124px */
+@media (min-width: 1124px) {
+  .custom-xl\:flex {
+    display: flex !important;
+  }
+  .custom-xl\:hidden {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1123px) {
+  .desktop-nav {
+    display: none !important;
+  }
+  .mobile-menu-button {
+    display: block !important;
+  }
 }

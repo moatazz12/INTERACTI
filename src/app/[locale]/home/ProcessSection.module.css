@@ -1,0 +1,557 @@
+/* Container & Structure */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0 32px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.subtitleWrapper {
+  margin-bottom: 16px;
+}
+
+.gradientText {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background: linear-gradient(90deg, #330052 0%, #ffd900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #330052;
+  font-size: 2.8rem;
+  font-weight: 650;
+  text-align: center;
+  line-height: 1.1;
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.processIntro {
+  color: #696679;
+  text-align: center;
+  font-size: 1.08rem;
+  font-weight: 400;
+  margin: 16px auto 10px auto;
+  max-width: 540px;
+  line-height: 1.6;
+  display: block;
+}
+
+/* Steps Zigzag */
+.stepsZigzagWrapper {
+  position: relative;
+  width: 100%;
+  margin: 80px 0 0 0;
+  min-height: 180px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.stepsZigzag {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(140px, 1fr));
+  grid-template-rows: 90px 90px;
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.zigzagLine {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1100px;
+  height: 180px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.stepZigzag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Ajustement du contenu centré pour steps 1 et 3 */
+.stepZigzag:nth-child(1) .stepContent,
+.stepZigzag:nth-child(3) .stepContent {
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Correction pour steps 2 et 4 (éviter qu’ils remontent trop) */
+.stepZigzag:nth-child(2),
+.stepZigzag:nth-child(4) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;          /* Augmentation pour contenir le contenu absolu */
+  padding-top: 70px;      /* Espace pour le texte en haut */
+  align-self: flex-start;
+}
+
+.stepZigzag:nth-child(2) .stepContent,
+.stepZigzag:nth-child(4) .stepContent {
+  position: absolute;
+  top: -90px;             /* Décalage vertical réduit */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;             /* Limite la largeur */
+  max-width: 280px;       /* Largeur max pour éviter débordement */
+  text-align: center;
+  margin: 0;
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconCircle {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 6px 32px 0 rgba(51, 0, 82, 0.12), 0 1.5px 6px 0 rgba(51, 0, 82, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  border: 2.5px solid #F5F3FF;
+  aspect-ratio: 1 / 1;
+  transition: box-shadow 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.iconCircle:hover {
+  box-shadow: 0 16px 48px 0 rgba(51, 0, 82, 0.22), 0 4px 16px 0 rgba(51, 0, 82, 0.13);
+  border-color: #FFD900;
+  transform: scale(1.08) translateY(-6px);
+}
+
+.iconCircle img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  display: block;
+}
+
+/* Desktop (default) */
+.stepNumber {
+  position: absolute;
+  top: -14px;
+  left: -14px;
+  width: 36px;
+  height: 36px;
+  background: #ffd900;
+  color: #330052;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px 0 rgba(51, 0, 82, 0.10);
+  z-index: 2;
+  aspect-ratio: 1 / 1;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.stepTitle {
+  color: #330052;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  transition: color 0.3s, transform 0.3s, background-position 0.5s;
+}
+
+.stepDesc {
+  color: #88849B;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.stepZigzag:hover .stepNumber {
+  box-shadow: 0 8px 24px 0 rgba(255, 217, 0, 0.25);
+  transform: scale(1.13) translateY(-4px);
+}
+
+.stepZigzag:hover .stepTitle {
+  background: linear-gradient(90deg, #330052 0%, #ffd900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: unset;
+  transform: translateY(-2px) scale(1.04);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+}
+
+.stepZigzag:hover .stepDesc {
+  color: #330052;
+  transform: translateY(-2px) scale(1.03);
+}
+
+/* Review Block */
+.reviewBlockWrapper {
+  margin-top: 85px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviewBlockDivider {
+  width: 70%;
+  border: none;
+  border-top: 1.5px solid #BDB6D4;
+  margin-bottom: 36px;
+}
+
+.reviewBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.reviewItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 240px;
+}
+
+.reviewIcon {
+  width: 58px;
+  height: 58px;
+  background: #330052;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 32px 0 rgba(51, 0, 82, 0.12), 0 1.5px 6px 0 rgba(51, 0, 82, 0.06);
+  flex-shrink: 0;
+}
+
+.reviewIcon svg {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.reviewText {
+  color: #330052;
+  font-size: 1.08rem;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  text-align: left;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.reviewBlockSep {
+  width: 1.5px;
+  height: 64px;
+  background: #E5E3E8;
+  margin: 0 32px;
+  border-radius: 2px;
+  align-self: center;
+}
+
+/* Decorative Elements */
+.decorativeBlob {
+  position: absolute;
+  top: -160px;
+  left: -130px;
+  width: 280px;
+  height: 200px;
+  background: radial-gradient(ellipse 60% 60% at 60% 40%, #FFF9E3 60%, #FFF6C3 90%, transparent 100%);
+  opacity: 0.45;
+  border-radius: 55% 45% 60% 80% / 60% 60% 40% 80%;
+  z-index: 1;
+  pointer-events: none;
+  filter: blur(1.5px);
+  transition: opacity 0.3s;
+}
+
+.bottomLeftBlob {
+  position: absolute;
+  bottom: 140px;
+  left: 0;
+  width: 180px;
+  max-width: 40vw;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.verticalLine {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .stepsZigzagWrapper {
+    padding: 0 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  /* Cacher les decorativeBlob jaune en mobile */
+  .decorativeBlob,
+  .bottomLeftBlob {
+    display: none !important;
+  }
+
+  /* Grid pour les étapes en mobile (zigzag vertical) */
+  .stepsZigzag {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 26px;
+  }
+
+  /* Ligne verticale principale plus visible */
+  .stepsZigzag::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 32px;
+    width: 2px; /* Rendu plus épais */
+    background-color: #BDB6D4; /* Rendu plus foncé */
+    z-index: 0;
+
+  }
+
+  /* Étapes individuelles */
+  .stepZigzag {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    z-index: 1;
+    margin: 0 8px; /* Marge horizontale pour les blocs d'étapes */
+    padding: 0; /* Pas de padding ici, géré par stepContent */
+  }
+
+  /* Positionner l'icône EXACTEMENT sur la ligne verticale */
+  .iconCircle {
+    width: 52px;
+    height: 52px;
+    background: #fff;
+    border: 2px solid #FFD900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 2;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+
+  /* Effet hover sur l'icône */
+  .iconCircle:hover {
+    transform: translateX(-50%) scale(1.1);
+  }
+
+  .iconCircle img {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* Cacher le numéro de l'étape */
+  .stepNumber {
+    display: none;
+  }
+
+  /* Contenu du step : titre et description - TOUS alignés à gauche */
+  .stepContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+    padding-left: 50px; /* Augmenté pour compenser l'effet hover */
+    padding-top: 4px;
+  }
+
+  .stepTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #330052;
+    margin-bottom: 4px;
+    text-align: left !important;
+  }
+
+  .stepDesc {
+    font-size: 0.95rem;
+    color: #696679;
+    line-height: 1.4;
+    text-align: left !important;
+  }
+
+  /* FORCER l'alignement à gauche pour TOUTES les étapes (1, 2, 3, 4) */
+  .stepZigzag:nth-child(1) .stepContent,
+  .stepZigzag:nth-child(2) .stepContent,
+  .stepZigzag:nth-child(3) .stepContent,
+  .stepZigzag:nth-child(4) .stepContent {
+    text-align: left !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+
+  .stepZigzag:nth-child(1) .stepTitle,
+  .stepZigzag:nth-child(2) .stepTitle,
+  .stepZigzag:nth-child(3) .stepTitle,
+  .stepZigzag:nth-child(4) .stepTitle {
+    text-align: left !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .stepZigzag:nth-child(1) .stepDesc,
+  .stepZigzag:nth-child(2) .stepDesc,
+  .stepZigzag:nth-child(3) .stepDesc,
+  .stepZigzag:nth-child(4) .stepDesc {
+    text-align: left !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  /* Spécifiquement pour les étapes 1 et 3 - forcer l'alignement à gauche */
+  .stepZigzag:nth-child(1),
+  .stepZigzag:nth-child(3) {
+    text-align: left !important;
+  }
+
+  .stepZigzag:nth-child(1) *,
+  .stepZigzag:nth-child(3) * {
+    text-align: left !important;
+  }
+
+  /* Toutes les étapes suivent le même alignement */
+  .stepZigzag:nth-child(odd),
+  .stepZigzag:nth-child(even) {
+    flex-direction: row;
+  }
+
+  /* Désactiver les anciens éléments */
+  .zigzagLine {
+    display: none !important;
+  }
+
+  /* Uniformiser toutes les étapes */
+  .stepZigzag:nth-child(2),
+  .stepZigzag:nth-child(4) {
+    position: relative;
+    padding-top: 0;
+    height: auto;
+  }
+
+  .stepZigzag:nth-child(2) .stepContent,
+  .stepZigzag:nth-child(4) .stepContent {
+    position: static;
+    transform: none;
+    margin: 0;
+    max-width: none;
+    width: auto;
+    text-align: left !important;
+  }
+
+  /* Règle globale pour forcer l'alignement à gauche sur tous les éléments */
+  .stepsZigzag * {
+    text-align: left !important;
+  }
+
+  /* Styles pour les blocs de review (plus jolis et avec marges) */
+.reviewBlockWrapper {
+  margin-top: 60px; /* Plus de marge en haut */
+  width: 100%;
+  padding: 0 24px; /* Plus de padding horizontal */
+}
+.reviewBlockDivider {
+  width: 80%; /* Ajusté pour mobile */
+  margin: 32px auto 32px auto; /* Plus de marge verticale */
+  border-color: #DCD9E6; /* Couleur de bordure légèrement plus douce */
+}
+.reviewBlock {
+  flex-direction: column; /* Empile les items verticalement */
+  gap: 24px; /* Espace légèrement augmenté entre les items pour plus d'air */
+  width: 100%;
+  max-width: 420px; /* Limite la largeur pour la lisibilité, légèrement plus large */
+  margin: 0 auto; /* Centre le bloc */
+  padding: 0;
+}
+.reviewItem {
+  display: flex;
+  flex-direction: row; /* Garde l'icône et le texte côte à côte */
+  align-items: center;
+  gap: 20px; /* Espace légèrement augmenté entre icône et texte */
+  width: 100%;
+  padding: 20px; /* Plus de padding interne pour plus d'espace */
+  border: 1px solid #F0EEF5; /* Bordure très subtile et douce */
+  border-radius: 16px; /* Coins plus arrondis pour un look plus doux */
+  background-color: #ffffff; /* Fond blanc */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06); /* Ombre légèrement plus prononcée et douce */
+  transition: all 0.3s ease-out; /* Transition plus douce */
+}
+.reviewItem:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Ombre plus prononcée au hover */
+  transform: translateY(-4px); /* Soulève davantage au hover */
+  border-color: #FFD900; /* Bordure jaune au hover pour feedback */
+}
+.reviewIcon {
+  width: 56px; /* Légèrement plus grand pour plus d'impact */
+  height: 56px;
+  background: #330052;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(51, 0, 82, 0.15); /* Ombre plus nette */
+  flex-shrink: 0;
+}
+.reviewIcon svg {
+  width: 26px !important; /* Icône légèrement plus grande */
+  height: 26px !important;
+}
+.reviewText {
+  font-size: 1rem; /* Taille de police légèrement augmentée pour meilleure lisibilité */
+  line-height: 1.5; /* Hauteur de ligne augmentée pour meilleure lisibilité */
+  color: #4A475C; /* Couleur de texte légèrement plus douce */
+}
+.reviewBlockSep {
+  display: none; /* Cache le séparateur vertical en mobile */
+}
+}

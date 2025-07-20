@@ -1,0 +1,15 @@
+{
+    "ServiceRequestTitle": "Demande de service",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbServiceRequest": "Demande de service",
+    "respondTime": "Soumettez votre demande selon vos besoins",
+    "helpText": "Besoin d'aide avec un service ? Remplissez ce formulaire, nous vous contacterons rapidement.",
+    "namePlaceholder": "Quel est votre nom ?",
+    "emailPlaceholder": "Quel est votre email ?",
+    "companyPlaceholder": "Nom de votre entreprise ?",
+    "PhonePlaceholder": "Quel est votre numéro ?",
+    "requestChoose": "Choisissez votre package",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "sendButton": "Envoyer le message"
+  
+}

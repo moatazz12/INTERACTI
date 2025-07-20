@@ -1,6 +1,6 @@
 // src/app/[locale]/contact/page.tsx
 
-import { getDict } from '@/lib/dictionaries';
+import { getDict, HomeDict } from '@/lib/dictionaries';
 import { Locale } from '@/lib/i18n';
 import ContactPageUI from './ContactPageUI';
 import { FooterDict,ContactDict } from '@/lib/dictionaries';   
@@ -51,23 +51,17 @@ export async function generateMetadata({ params }: { params: { locale: Locale } 
 export default async function ContactPage({ params }: ContactPageProps) {
  const { locale } = await params; 
   
- const [contactDict, footerDict] = await Promise.all([
+ const [contactDict,homeDict, footerDict] = await Promise.all([
     getDict(locale, 'contact'),
+    getDict(locale, 'home'),
     getDict(locale, 'footer'),
   ]);
 
-    return <ContactPageUI dict={contactDict} footerDict={footerDict} locale={locale} />;
+    return <ContactPageUI 
+    dict={contactDict}
+    dictMap={(homeDict as HomeDict).mapSection}
+    footerDict={footerDict} 
+    locale={locale} />;
 
 }
-
-
-// export function generateViewport() {
-//   return {
-//     width: 'device-width',
-//     initialScale: 1,
-//   };
-// }
-
-// export function generateThemeColor() {
-//   return '#330058';
-// }
+ 

@@ -1,0 +1,82 @@
+{
+  "services": {
+    "seo": {
+      "category": "SEO",
+      "subservices": [
+        { "slug": "local-seo", "title": "SEO Local" },
+        { "slug": "technical-seo", "title": "SEO Technique" },
+        { "slug": "ecommerce-seo", "title": "SEO E-commerce" },
+        { "slug": "franchise-seo", "title": "SEO Franchise" },
+        { "slug": "enterprise-seo", "title": "SEO Entreprise" },
+        { "slug": "ai-powered-seo", "title": "SEO par IA" },
+        { "slug": "seo-audit", "title": "Audit SEO" },
+        { "slug": "franchise-seo-audit", "title": "Audit SEO Franchise" },
+        { "slug": "enterprise-seo-audit", "title": "Audit SEO Entreprise" }
+      ]
+    },
+    "digital-marketing": {
+      "category": "Marketing Digital",
+      "subservices": [
+        { "slug": "content-marketing", "title": "Marketing de Contenu" },
+        { "slug": "social-media-marketing", "title": "Marketing Réseaux Sociaux" },
+        { "slug": "digital-advertising", "title": "Publicité Digitale" },
+        { "slug": "ecommerce-marketing", "title": "Marketing E-commerce" },
+        { "slug": "marketing-automation", "title": "Automatisation Marketing" },
+        { "slug": "marketing-communication", "title": "Communication Marketing" }
+      ]
+    },
+    "creative-design": {
+      "category": "Design Créatif",
+      "subservices": [
+        { "slug": "branding", "title": "Identité Visuelle" },
+        { "slug": "ui-ux-design", "title": "Design UI/UX" },
+        { "slug": "graphic-design", "title": "Design Graphique" },
+        { "slug": "motion-3d-design", "title": "Design motion & 3D" }
+      ]
+    },
+    "web-design-development": {
+      "category": "Design & Développement Web",
+      "subservices": [
+        { "slug": "custom-website", "title": "Site Web Sur Mesure" },
+        { "slug": "wordpress-development", "title": "Développement WordPress" },
+        { "slug": "web-design-development", "title": "Développement Web" },
+        { "slug": "app-development", "title": "Développement d'Application" },
+        { "slug": "software-development", "title": "Développement Logiciel" },
+        { "slug": "database-development", "title": "Développement Base de Données" }
+      ]
+    },
+    "media-production": {
+      "category": "Production Média",
+      "subservices": [
+        { "slug": "photography", "title": "Photographie" },
+        { "slug": "video-production", "title": "Production Vidéo" }
+      ]
+    },
+    "consulting": {
+      "category": "Conseil Stratégique",
+      "subservices": [
+        { "slug": "marketing-consulting", "title": "Conseil en Marketing" },
+        { "slug": "digital-transformation-consulting", "title": "Conseil en  Transformation Digitale" },
+        { "slug": "design-consulting", "title": "Conseil en Design" },
+        { "slug": "branding-consulting", "title": "Conseil en Branding" }
+      ]
+    },
+    "linkedin-growth": {
+      "category": "Croissance LinkedIn",
+      "subservices": [
+        { "slug": "profile-optimization", "title": "Optimisation de Profil" },
+        { "slug": "company-page-strategy", "title": "Page Entreprise & Stratégie" },
+        { "slug": "cv-writing", "title": "Rédaction de CV" },
+        { "slug": "personal-branding", "title": "Personal Branding" }
+      ]
+    }
+  },
+  "sidebar": {
+    "allServices": "Tous les services",
+    "help": {
+      "title": "Besoin d’aide ?",
+      "phone": "Appelez-nous au",
+      "number": "+216 25 936 938"
+    }
+  }
+}

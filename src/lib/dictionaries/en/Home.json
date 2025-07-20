@@ -1,0 +1,279 @@
+{
+  "hero": {
+    "title": "DIGITAL MARKETING AGENCY",
+    "trafficLabel": "Monthly Traffic",
+    "trafficValue": "220,342.76",
+    "trafficChange": "+3.4%",
+    "descriptionBefore": "Unlock your brand’s full potential with Interacti Marketing Agency — a digital marketing agency delivering strategic solutions that drive real results. We offer expert services in",
+    "services": [
+      "Search Engine Optimization (SEO)",
+      "Digital Marketing",
+      "Creative Design",
+      "Web Development",
+      "Content & Media Production",
+      "Consulting",
+      "LinkedIn Growth"
+    ],
+    "descriptionAfter": "— empowering businesses to grow smarter across every digital touchpoint."
+  },
+  "about": {
+    "partnersTitle": "Our Partners",
+    "partnersSubtitle": "Proud partners of innovative companies across industries",
+    "subheading": "About",
+    "heading": "Why Choose Interacti Marketing Agency as Your Digital Partner?",
+    "intro": "At Interacti Marketing Agency, we empower ambitious brands with high-impact digital strategies designed for growth.",
+    "descriptionBefore": "From strategy to execution, our agency delivers results-driven solutions across seven core areas:",
+    "services": [
+      "SEO",
+      "Digital Marketing",
+      "Creative Design",
+      "Web Development",
+      "Content & Media Production",
+      "Consulting",
+      "LinkedIn Growth"
+    ],
+    "descriptionAfter": "We don't just follow trends — we shape them. Our expert team helps businesses like yours scale faster, connect deeper, and thrive in a digital-first world.",
+    "button": "About"
+  },
+    "services": {
+    "subtitle": "Our Services",
+    "title": "Our Digital Marketing Expertise",
+    "cards": [
+      {
+        "title": "SEO Et Analyses",
+        "text": "We improve your online visibility through data-driven SEO strategies. From keyword research to technical audits and content optimization, we help your brand rank higher and convert better across search engines.",
+        "image": "/SEO-home.png",
+        "number": "01",
+        "wide": true
+      },
+      {
+        "title": "Creative Design",
+        "text": "We craft powerful brand identities and visual experiences through branding, UI/UX, graphic design, and motion design — turning your message into memorable visuals.",
+        "number": "02"
+      },
+      {
+        "title": "Digital Marketing",
+        "text": "We develop and execute integrated digital strategies across SEO, paid ads, social media, and marketing automation — focused on lead generation, engagement, and growth.",
+        "number": "03"
+      },
+      {
+        "title": "Web Design & Development",
+        "text": "We design and develop fast, secure, and conversion-focused websites that elevate your brand. Whether you're launching a new site or revamping an old one, our team ensures seamless UX, custom UI, mobile responsiveness, and full SEO readiness. Get a digital presence that performs.",
+        "image": "/dev-home.png",
+        "number": "04",
+        "wide": true
+      }
+    ],
+    "button": "Show All Services"
+  },
+  "seoSection": {
+  "subheading": "Your visibility is your competitive edge.",
+  "heading": "SEO Excellence Services by Interacti Marketing Agency",
+  "description": "Boost your online presence with a complete, customized SEO strategy. From technical audits and keyword planning to content optimization and backlink building — we ensure your site ranks, converts, and grows. Stop wasting time on manual tasks. Let us optimize your SEO and automate your digital growth with measurable impact.",
+  "button": "Start",
+  "imageAlt": "SEO Illustration"
+  },
+  "processSection": {
+    "subtitle": "Work Process",
+    "title": "Our Work Process",
+    "intro": "We turn your ideas into measurable outcomes with a clear, client-centric approach.",
+    "steps": [
+      {
+        "number": 1,
+        "img": "/step1.webp",
+        "alt": "Choose a service icon",
+        "title": "Choose a Service",
+        "desc": "Pick the service that best fits your needs—from marketing and branding to design and web development.",
+        "blob": true,
+        "nowrap": false
+      },
+      {
+        "number": 2,
+        "img": "/step2.webp",
+        "alt": "Define your requirements icon",
+        "title": "Define Your Requirements",
+        "desc": "Share your goals, timeline, and expectations so we can build a custom solution tailored to your vision.",
+        "blob": false,
+        "nowrap": false
+      },
+      {
+        "number": 3,
+        "img": "/step3.webp",
+        "alt": "Book a meeting icon",
+        "title": "Book a Meeting",
+        "desc": "We schedule a discovery session (online or in-person) to confirm details and align on execution.",
+        "blob": false,
+        "nowrap": true
+      },
+      {
+        "number": 4,
+        "img": "/step4.webp",
+        "alt": "Final solution delivery icon",
+        "title": "Final Delivery",
+        "desc": "You receive a fully executed, ready-to-launch solution—on time, on point, and supported every step of the way.",
+        "blob": false,
+        "nowrap": true
+      }
+    ],
+    "reviews": [
+      {
+        "icon": "ReviewIcon1",
+        "textLine1": "Approved by",
+        "textLine2": "25 000 entreprises"
+      },
+      {
+        "icon": "ReviewIcon2",
+        "textLine1": "Rated 4.9/5",
+        "textLine2": "Based on over 600 reviews"
+      }
+    ]
+  },
+  "projectsection":{
+    "subtitle": "Our Projects",
+    "title": "Discover Our Projects",
+    "projects": [
+    {
+      "id": 1,
+      "category": "Technologie",
+      "title": "Search Engine Optimization",
+      "description": "Improved SEO and online visibility to increase organic traffic.",
+      "image": "/web.jpg",
+      "alt": "SEO optimization dashboard showing analytics"
+    },
+    {
+      "id": 2,
+      "category": "Design",
+      "title": "Interface user moderne",
+      "description": "Création d'interfaces intuitives et esthétiques pour une expérience utilisateur optimale.",
+      "image": "/media production.jpg",
+      "alt": "Modern UI design mockups on a tablet"
+    },
+    {
+      "id": 3,
+      "category": "Marketing",
+      "title": "Stratégie digital contenu ",
+      "description": "Développement de stratégies de contenu engageantes pour renforcer la présence digitale.",
+      "image": "/linkedin.jpg",
+      "alt": "Digital marketing team brainstorming"
+    },
+    {
+      "id": 4,
+      "category": "Développement",
+      "title": "App web responsive",
+      "description": "Développement d'applications web modernes et adaptatives pour tous les appareils.",
+      "image": "/digitalmarketing.jpg",
+      "alt": "Responsive web application on multiple devices"
+    },
+    {
+      "id": 5,
+      "category": "SEO",
+      "title": "Audit and optimisation technique",
+      "description": "Analyse complète and optimisation technique pour améliorer les performances SEO.",
+      "image": "/seobanner.jpg",
+      "alt": "SEO audit report with performance metrics"
+    }
+  ]
+  },
+  "FeedbackSection": {
+    "subtitle": "Client Feedback",
+    "title": "Client Say About Us",
+    "testimonials": [
+      {
+        "id": 1,
+        "rating": 5,
+        "text": "I am thrilled with the website Interacti Marketing Agency developed for my business! Their team understood our vision perfectly and created a stunning, user-friendly site that exceeded our expectations. The process was seamless, and the final product has significantly boosted our online presence. Highly recommend their web development services!",
+        "author": "Haitham",
+        "position": "CEO Of Tembri",
+        "avatar": "/tembri.webp?height=40&width=40"
+      },
+      {
+        "id": 2,
+        "rating": 5,
+        "text": "quand un imprimeur inconnu a emporté une galée de caractères aawer avtndi ils les ont mélangés pour faire un type beaucoup mais aussi le saut dans",
+        "author": "Jerome Bell",
+        "position": "Directeur Marketing",
+        "avatar": "/placeholder.svg?height=40&width=40"
+      },
+      {
+        "id": 3,
+        "rating": 4,
+        "text": "quand un imprimeur inconnu a emporté une galée de caractères aawer avtndi ils les ont mélangés pour faire un type beaucoup mais aussi le saut dans",
+        "author": "Savannah Nguyen",
+        "position": "Chef de Projet",
+        "avatar": "/placeholder.svg?height=40&width=40"
+      },
+      {
+        "id": 4,
+        "rating": 5,
+        "text": "Service exceptionnel et équipe très professionnelle. Ils ont dépassé nos attentes et livré un travail de qualité supérieure.",
+        "author": "Robert Fox",
+        "position": "Entrepreneur",
+        "avatar": "/placeholder.svg?height=40&width=40"
+      },
+      {
+        "id": 5,
+        "rating": 5,
+        "text": "Innovation et créativité au rendez-vous. L'équipe a apporté des idées fraîches et originales qui ont fait la différence.",
+        "author": "Cody Fisher",
+        "position": "Designer",
+        "avatar": "/placeholder.svg?height=40&width=40"
+      }
+    ]
+  },
+  "newsBlog": {
+    "sectionTitle": "Latest News",
+    "sectionSubtitle": "Latest News & Blog",
+    "buttonLabel": "VIEW ALL NEWS",
+    "featuredArticle": {
+      "id": 1,
+      "date": "20",
+      "month": "DEC",
+      "category": "Technology",
+      "title": "Keep Your Business Safe & Ensure High Availability.",
+      "author": "Ralph Edwards",
+      "comments": 0,
+      "image": "/web.jpg?height=360&width=350"
+    },
+    "sideArticles": [
+      {
+        "id": 2,
+        "date": "20",
+        "month": "DEC",
+        "category": "Technology",
+        "title": "What's The Holding Back The It Solution",
+        "author": "Ralph Edwards",
+        "comments": 0,
+        "image": "/seobanner.jpg?height=180&width=140"
+      },
+      {
+        "id": 3,
+        "date": "20",
+        "month": "DEC",
+        "category": "Technology",
+        "title": "What's The Holding Back The It Solution",
+        "author": "Ralph Edwards",
+        "comments": 0,
+        "image": "/web.jpg?height=180&width=140"
+      }
+    ]
+  } ,
+  "mapSection": {
+  "title": "Contact Details",
+  "address": "N°30, Av 5 Août, Rue de Misrata, 3002",
+  "phone": "+216 25 936 938",
+  "email": "Contact@interactiagency.com",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.3280354751973!2d10.761237999999999!3d34.747328599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1301d3dea14fe70b%3A0x147fda5e4f00d6d8!2sInteracti%20Marketing%20Agency!5e0!3m2!1sfr!2stn!4v1752795684408!5m2!1sfr!2stn",
+  "hours": [
+    { "days": "Mon - Fri", "hours": "9:00 AM - 6:00 PM" },
+    { "days": "Saturday", "hours": "9:00 AM - 1:00 PM" },
+    { "days": "Sunday", "hours": "Closed" }
+  ],
+    "labels": {
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Hours"
+  }
+}
+  
+}

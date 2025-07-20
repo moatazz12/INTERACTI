@@ -28,7 +28,7 @@ const listVariants: Variants = {
 const ServiceBlock: FC<Props> = ({ icon, title, services, locale, hideTitle = false }) => (
   <div>
     {!hideTitle && (
-      <h4 className="flex items-center gap-2 font-bold text-[#301f50] text-sm uppercase mb-4">
+      <h4 className="flex items-center gap-2 font-bold text-[#330052] text-sm uppercase mb-4">
         {icon} {title}
       </h4>
     )}

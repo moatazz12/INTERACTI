@@ -14,7 +14,7 @@ interface Props {
 export default function FAQPageWrapper({ dict, footerDict, locale }: Props) {
   return (
     <>
-      <FAQPageUI dict={dict} />
+      <FAQPageUI dict={dict} locale={locale}  />
       <LazyHydrateOnScroll>
         <Footer dict={footerDict} locale={locale} />
       </LazyHydrateOnScroll>

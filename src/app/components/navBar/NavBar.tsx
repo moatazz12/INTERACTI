@@ -10,13 +10,13 @@ const NavBar = ({ activeUnderline }: { activeUnderline?: string }) => {
       {/* Logo côté serveur */}
       <Link href="/" className="flex-shrink-0">
         <Image
-          src="/logo.png"
-          alt="Logo"
-          width={180}
-          height={90}
-          className="object-contain max-h-16 md:max-h-20 lg:max-h-24 w-auto"
-          priority
-        />
+            src="/logo-gold.webp"
+            alt="Logo"
+            width={180}
+            height={90}
+            className="object-contain max-h-26 md:max-h-30 lg:max-h-36 w-auto"
+            priority
+          />
       </Link>
 
       {/* Client-only navigation */}

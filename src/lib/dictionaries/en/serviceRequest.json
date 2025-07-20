@@ -1,0 +1,15 @@
+{
+    "ServiceRequestTitle": "Service Requests",
+    "breadcrumbHome": "Home",
+    "breadcrumbServiceRequest": "Service Request",
+    "respondTime": "Submit Your Service Request Based On Your Needs",
+    "helpText": "Need help with a specific service? Just fill out the form — we'll get back to you shortly.",
+    "namePlaceholder": "What's Your Name?",
+    "emailPlaceholder": "What's Your Email?",
+    "companyPlaceholder": "What's Your Company Name?",
+    "PhonePlaceholder": "What's Your Phone Number?",
+    "requestChoose": "Choose Your Package",
+    "messagePlaceholder": "What Can We Help You With?",
+    "sendButton": "Send Message"
+
+}

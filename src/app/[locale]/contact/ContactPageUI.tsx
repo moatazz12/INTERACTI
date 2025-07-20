@@ -1,6 +1,6 @@
 'use client';
 
-import { ContactDict, FooterDict } from '@/lib/dictionaries';
+import { ContactDict, FooterDict, HomeDict } from '@/lib/dictionaries';
 import NavBar from '@/app/components/navBar/NavBar';
 import dynamic from 'next/dynamic';
 import LazyHydrateOnScroll from '@/app/components/LazyHydrateOnScroll';
@@ -8,24 +8,26 @@ import Image from 'next/image';
 
 // 📦 import normal du footer ici
 import Footer from '@/app/components/Footer';
+import MapSection from '@/app/components/mapSection';
 
 const ContactForm = dynamic(() => import('@/app/components/forms/ContactForm'), { ssr: false });
 const Breadcrumb = dynamic(() => import('@/app/components/Breadcrumb'), { ssr: false });
 
 interface Props {
   dict: ContactDict;
+  dictMap :HomeDict["mapSection"]
   footerDict: FooterDict;
   locale: string;
 }
 
-export default function ContactPageUI({ dict, footerDict, locale }: Props) {
+export default function ContactPageUI({ dict,dictMap, footerDict, locale }: Props) {
   return (
     <>
-      <section className="min-h-[35vh] bg-[#301F50] text-white font-sans">
+      <section className="min-h-[35vh] bg-[#330052] text-white font-sans">
         <NavBar activeUnderline={dict.contactTitle} />
-        <div className="text-center py-10 md:py-3 px-4">
+        <div className="flex flex-col items-center justify-center text-center py-10 md:py-3 px-4">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">{dict.contactTitle}</h1>
-          <Breadcrumb homeLabel={dict.breadcrumbHome} currentLabel={dict.breadcrumbContact} />
+          <Breadcrumb homeLabel={dict.breadcrumbHome} currentLabel={dict.breadcrumbContact} locale= {locale} />
         </div>
       </section>
 
@@ -51,6 +53,7 @@ export default function ContactPageUI({ dict, footerDict, locale }: Props) {
 
       {/* ✅ Lazy hydration du footer ici */}
       <LazyHydrateOnScroll>
+        <MapSection dict={dictMap} />
         <Footer dict={footerDict} locale={locale} />
       </LazyHydrateOnScroll>
     </>

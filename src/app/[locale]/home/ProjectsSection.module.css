@@ -1,0 +1,71 @@
+/* Styles pour le desktop (inchangés, car ils sont gérés par les classes Tailwind par défaut) */
+
+/* Styles pour la version mobile */
+@media (max-width: 768px) {
+  /* Container du carrousel */
+  .projects-carousel {
+    /* La hauteur est gérée par les classes Tailwind h-[250px] */
+    /* Le display flex, items-center, justify-center, overflow-hidden sont gérés par les classes Tailwind */
+  }
+
+  /* Chaque carte projet */
+  .project-card {
+    /* La largeur et hauteur sont gérées par les classes Tailwind w-[280px] h-[220px] */
+    /* position: absolute est déjà appliqué dans le JSX */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre plus légère pour mobile */
+    border-radius: 0px !important; /* Assure des coins arrondis cohérents */
+  }
+
+  .project-card:active,
+  .project-card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Ombre légèrement plus forte au hover/active */
+  }
+
+  /* Flèches de navigation */
+  .navigation-arrows {
+    display: flex !important; /* Rendre les flèches visibles sur mobile */
+    width: 36px !important; /* Taille plus petite pour les flèches */
+    height: 36px !important;
+  }
+
+  .navigation-arrows svg {
+    width: 16px !important; /* Taille de l'icône plus petite */
+    height: 16px !important;
+  }
+
+  /* Fiche descriptive centrée */
+  .info-card {
+    /* Les styles de taille, padding, gap sont maintenant gérés par les classes Tailwind dans le JSX */
+    /* display: flex est déjà géré par les classes Tailwind */
+  }
+
+  .info-card p {
+    font-size: 0.65rem !important; /* Texte plus petit */
+  }
+
+  .info-card h2 {
+    font-size: 0.8rem !important; /* Texte plus petit */
+  }
+
+  .info-card div:last-child {
+    /* Cercle jaune avec flèche */
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .info-card svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  /* Points de pagination */
+  .pagination-dots {
+    display: flex !important; /* Rendre les points de pagination visibles sur mobile */
+    margin-top: 1rem !important; /* Ajuste la marge supérieure */
+  }
+
+  /* Optionnel : supprime le blur si trop lourd pour le mobile */
+  .project-card .blur-sm {
+    filter: none !important;
+  }
+}
